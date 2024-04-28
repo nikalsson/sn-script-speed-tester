@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="069b9d9e47310210edd8b4b4116d437a" label="Test Definition" max_length="40" name="x_1397355_s_speed_test_definition" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="255" name="name" type="string"/>
+    </element>
+</database>

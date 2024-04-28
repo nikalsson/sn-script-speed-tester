@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9aeb55de47310210edd8b4b4116d4396" label="Test Result" max_length="40" name="x_1397355_s_speed_test_result" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Result" max_length="65536" name="result" type="html"/>
+    </element>
+</database>
