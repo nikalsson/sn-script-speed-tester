@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1397355_s_speed.ScriptSpeedExecution</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Class to call on each script execution </description>
+        <name>ScriptSpeedExecution</name>
+        <script><![CDATA[var ScriptSpeedExecution = Class.create();
+ScriptSpeedExecution.prototype = {
+    initialize: function(iterations, script_field_name, script_name) {
+        try {
+            // Check if `iterations`, `script_field_name` and `script_name` parameters are provided
+            if (typeof iterations === 'undefined') {
+                throw 'Missing `iterations` parameter for initializing ScriptSpeedExecution';
+            }
+
+            if (typeof script_field_name === 'undefined') {
+                throw 'Missing `script_field_name` parameter for initializing ScriptSpeedExecution';
+            }
+
+            if (typeof script_name === 'undefined') {
+                throw 'Missing `script_name` parameter for initializing ScriptSpeedExecution';
+            }
+
+            this.iterations = iterations;
+            this.execution_time_per_iteration = []; // Array to keep execution time of every iteration
+            this.timer_start_time, this.timer_end_time, this.elapsed_time_MS = null; // Initialize timer variables with null value
+            this.script_field_name = script_field_name;
+            this.script_name = script_name;
+        } catch (err) {
+            throw 'Failed to initialize ScriptSpeedExecution:\n' + err;
+        }
+    },
+
+    //Return array of execution time per iteration
+    get_execution_time_per_iteration: function() {
+        return this.execution_time_per_iteration.toString();
+    },
+
+    //Return total execution time of all iterations
+    get_total_elapsed_time: function() {
+        return this.execution_time_per_iteration.reduce(function(acc, val) {
+            return acc + val;
+        }, 0);
+    },
+
+    //Return average execution time per iteration
+    get_average: function() {
+        return this.get_total_elapsed_time() / this.iterations;
+    },
+
+    //Return max execution time
+    get_max: function() {
+        return this.execution_time_per_iteration.reduce(function(a, b) {
+            return Math.max(a, b);
+        });
+    },
+
+    //Return min execution time
+    get_min: function() {
+        return this.execution_time_per_iteration.reduce(function(a, b) {
+            return Math.min(a, b);
+        });
+    },
+
+    type: 'ScriptSpeedExecution'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-04-28 12:36:51</sys_created_on>
+        <sys_id>fcff29da47b10210edd8b4b4116d43fe</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>ScriptSpeedExecution</sys_name>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name>sys_script_include_fcff29da47b10210edd8b4b4116d43fe</sys_update_name>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 19:35:18</sys_updated_on>
+    </sys_script_include>
+</record_update>

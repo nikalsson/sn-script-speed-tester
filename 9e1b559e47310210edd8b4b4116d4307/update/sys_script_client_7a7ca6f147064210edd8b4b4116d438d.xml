@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>iterations</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Is iteration a number over 0</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+	var num = parseInt(newValue, 10);
+	if (num < 0) {
+        alert('The number of iterations cannot be negative. Please adjust.');
+        g_form.clearValue('iterations');
+    }
+	    if (isNaN(num)) {
+        alert('Insert a number.');
+        g_form.clearValue('iterations');
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>nat-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:38:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a7ca6f147064210edd8b4b4116d438d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Is iteration a number over 0</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name>sys_script_client_7a7ca6f147064210edd8b4b4116d438d</sys_update_name>
+        <sys_updated_by>nat-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 14:14:14</sys_updated_on>
+        <table>x_1397355_s_speed_test_definition</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
