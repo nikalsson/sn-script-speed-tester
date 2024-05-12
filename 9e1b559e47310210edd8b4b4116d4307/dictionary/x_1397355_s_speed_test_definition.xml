@@ -2,7 +2,7 @@
     <element db_object_id="069b9d9e47310210edd8b4b4116d437a" label="Test Definition" max_length="40" name="x_1397355_s_speed_test_definition" type="collection">
         <element label="Description" max_length="1000" name="description" type="string"/>
         <element label="Error" max_length="1000" name="error" read_only="true" type="string"/>
-        <element label="Iterations" max_length="4" name="iterations" type="string"/>
+        <element default="25" label="Iterations" max_length="4" name="iterations" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="255" name="name" type="string"/>
         <element choice="3" default="2" label="Number of scripts" max_length="40" name="number_of_scripts" type="choice">
             <choice>
@@ -17,15 +17,15 @@
                 <element inactive_on_update="false" label="9" sequence="9" value="9"/>
             </choice>
         </element>
-        <element label="Script 1" max_length="16777215" name="script_1" type="script"/>
-        <element label="Script 2" max_length="16777215" name="script_2" type="script"/>
-        <element label="Script 3" max_length="16777215" name="script_3" type="script"/>
-        <element label="Script 4" max_length="16777215" name="script_4" type="script"/>
-        <element label="Script 5" max_length="16777215" name="script_5" type="script"/>
-        <element label="Script 6" max_length="16777215" name="script_6" type="script"/>
-        <element label="Script 7" max_length="16777215" name="script_7" type="script"/>
-        <element label="Script 8" max_length="16777215" name="script_8" type="script"/>
-        <element label="Script 9" max_length="16777215" name="script_9" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 1" max_length="16777215" name="script_1" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 2" max_length="16777215" name="script_2" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 3" max_length="16777215" name="script_3" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 4" max_length="16777215" name="script_4" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 5" max_length="16777215" name="script_5" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 6" max_length="16777215" name="script_6" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 7" max_length="16777215" name="script_7" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 8" max_length="16777215" name="script_8" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 9" max_length="16777215" name="script_9" type="script"/>
         <element label="Script name 1" max_length="80" name="script_name_1" type="string"/>
         <element label="Script name 2" max_length="80" name="script_name_2" type="string"/>
         <element label="Script name 3" max_length="80" name="script_name_3" type="string"/>
