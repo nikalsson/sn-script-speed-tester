@@ -11,24 +11,25 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-12 18:27:17</sys_created_on>
         <sys_id>c7ab4f76474e4210edd8b4b4116d4323</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>x_1397355_s_speed.result.style</sys_name>
         <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
         <sys_policy/>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name>sys_properties_c7ab4f76474e4210edd8b4b4116d4323</sys_update_name>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-12 19:10:47</sys_updated_on>
+        <sys_updated_on>2024-05-12 19:28:51</sys_updated_on>
         <type>string</type>
         <value>&lt;style&gt;&#13;
     container {&#13;
-        text-align: center; /* Center align all content */&#13;
+        text-align: left; /* Align all content left */&#13;
     }&#13;
 &#13;
     #results_table {&#13;
         padding: 10px; /* Add padding to the table */&#13;
         border-collapse: collapse; /* Collapse borders to ensure continuous lines */&#13;
-        margin: auto; /* Center the table */&#13;
+        margin: 0; /* Align the table to the left */&#13;
+        width: auto; /* Make the table width adjust to content */&#13;
     }&#13;
 &#13;
     #results_table th {&#13;
@@ -42,10 +43,9 @@
         padding: 8px; /* Add padding to table cells */&#13;
     }&#13;
 &#13;
-    .script pre {&#13;
+    .script {&#13;
         background-color: #f4f4f4; /* Light grey background for code blocks */&#13;
         padding: 10px; /* Add padding to code blocks */&#13;
-        border-radius: 5px; /* Add rounded corners */&#13;
         border: 1px solid #ddd; /* Add border */&#13;
         white-space: pre-wrap; /* Preserve white spaces and wrap lines */&#13;
         overflow-x: auto; /* Enable horizontal scroll if needed */&#13;

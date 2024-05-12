@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>32d9b6a947420210edd8b4b4116d4399</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Write Script Test Results To HTML</sys_name>
         <sys_overrides/>
         <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_32d9b6a947420210edd8b4b4116d4399</sys_update_name>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 17:31:37</sys_updated_on>
+        <sys_updated_on>2024-05-12 19:44:51</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -165,10 +165,10 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 20:04:04</sys_created_on>
         <sys_id>eaab326d47420210edd8b4b4116d4363</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
+        <sys_updated_on>2024-05-12 19:44:46</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eaab326d47420210edd8b4b4116d4363"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -193,20 +193,30 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 20:04:04</sys_created_on>
         <sys_id>feab326d47420210edd8b4b4116d4381</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
+        <sys_updated_on>2024-05-12 19:44:46</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 	try {&#13;
         var results = JSON.parse(inputs.details);&#13;
 &#13;
         // Sort the results based on the total execution speed&#13;
-        results.sort((a, b) =&gt; a.total_execution_time_MS - b.total_execution_time_MS);&#13;
+        var sorted_results = results.sort((a, b) =&gt; a.total_execution_time_MS - b.total_execution_time_MS);&#13;
 &#13;
-        var html = '&lt;div&gt;Fastest script is &lt;strong&gt;' + results[0].script_name + '&lt;/strong&gt; with an average execution time of ' + results[0].average_time_MS + ' milliseconds';&#13;
-        html += '&lt;br&gt;Slowest script is &lt;strong&gt;' + results[results.length - 1].script_name + '&lt;/strong&gt; with an average execution time of ' + results[results.length - 1].average_time_MS + ' milliseconds&lt;/div&gt;';&#13;
-        html += '&lt;br&gt;&lt;br&gt;';&#13;
-        html += '&lt;table&gt;';&#13;
+		var ran_by_user = gs.getUserDisplayName(inputs.test_definition.getValue('ran_by'));&#13;
+&#13;
+        // CSS styling is set in a system property&#13;
+        var style_css = gs.getProperty('x_1397355_s_speed.result.style', '');&#13;
+        var html = style_css + '&lt;container&gt;';&#13;
+&#13;
+        html += '&lt;div id="results_summary"&gt;Test ran by &lt;strong&gt;'+ ran_by_user + '&lt;/strong&gt;';&#13;
+        html += '&lt;br&gt;&lt;br&gt;Fastest script is &lt;strong&gt;' + results[0].script_name + '&lt;/strong&gt; with an average execution time of ' + results[0].average_time_MS + ' milliseconds';&#13;
+        html += '&lt;br&gt;Slowest script is &lt;strong&gt;' + results[results.length - 1].script_name + '&lt;/strong&gt; with an average execution time of ' + results[results.length - 1].average_time_MS + ' milliseconds';&#13;
+        html += '&lt;br&gt;&lt;br&gt;Scripts in order from fastest to slowest. Iterations: ' +  results[0].iterations + '. Times are in milliseconds.';&#13;
+		html += '&lt;/div&gt;'&#13;
+        &#13;
+        // Set up a result table and columns&#13;
+        html += '&lt;table id="results_table"&gt;';&#13;
         html += '&lt;thead&gt;';&#13;
         html += '&lt;tr&gt;';&#13;
         html += '&lt;th&gt;Script&lt;/th&gt;';&#13;
@@ -219,9 +229,10 @@
         html += '&lt;/thead&gt;';&#13;
         html += '&lt;tbody&gt;';&#13;
 &#13;
-        var el = {}, time_diff_to_fastest = 0, fastest_avg = results[0].average_time_MS;&#13;
-        for (i = 0; i &lt; results.length; i++) {&#13;
-            el = results[i];&#13;
+        // Print the results to the table&#13;
+        var el = {}, time_diff_to_fastest = 0, fastest_avg = sorted_results[0].average_time_MS;&#13;
+        for (i = 0; i &lt; sorted_results.length; i++) {&#13;
+            el = sorted_results[i];&#13;
             if (i != 0) {&#13;
                 time_diff_to_fastest = Math.round(((el.average_time_MS - fastest_avg) / fastest_avg) * 100);&#13;
             };&#13;
@@ -238,7 +249,19 @@
 &#13;
         html += '&lt;/tbody&gt;';&#13;
         html += '&lt;/table&gt;';&#13;
-        html += '&lt;span&gt;Times are in milliseconds&lt;/span&gt;'&#13;
+&#13;
+        // Include the scripts that were used&#13;
+        html += '&lt;br&gt;&lt;br&gt;&lt;div id="scripts"&gt;Scripts used:';&#13;
+        for (i = 1; i &lt;= results.length; i++) {&#13;
+            var def_gr = inputs.test_definition;&#13;
+			html += '&lt;pre class="script"&gt;';&#13;
+			html += '&lt;span class="script_name"&gt;' + results[i - 1].script_name + '&lt;/span&gt;&lt;br&gt;';&#13;
+			html += escapeHtmlCharacters(def_gr.getValue('script_' + i)); // Escape the JS characters so it won't mess up the HTML&#13;
+			html += '&lt;/pre&gt;&lt;br&gt;';&#13;
+        }&#13;
+&#13;
+        html += '&lt;/div&gt;';&#13;
+        html += '&lt;/container&gt;';&#13;
 &#13;
         outputs.html = html;&#13;
 		outputs.success = true;&#13;
@@ -1200,14 +1223,14 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 20:04:04</sys_created_on>
         <sys_id>baab326d47420210edd8b4b4116d438a</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 17:31:35</sys_updated_on>
+        <sys_updated_on>2024-05-12 19:44:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1577,17 +1600,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Write Script Test Results To HTML">32d9b6a947420210edd8b4b4116d4399</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"fd356e3947c24210edd8b4b4116d4316","name":"plan","plan_signature":null}}</plan>
-        <snapshot>f68571e247c20210edd8b4b4116d4313</snapshot>
+        <snapshot>9caddf7e478e4210edd8b4b4116d43a0</snapshot>
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-09 13:04:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fd356e3947c24210edd8b4b4116d4316</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 17:31:37</sys_updated_on>
+        <sys_updated_on>2024-05-12 19:44:52</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>package_private</access>
@@ -1752,10 +1775,10 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-09 13:04:26</sys_created_on>
         <sys_id>e1352e3947c24210edd8b4b4116d4392</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 17:29:37</sys_updated_on>
+        <sys_updated_on>2024-05-12 19:44:51</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e1352e3947c24210edd8b4b4116d4392"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1766,20 +1789,30 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-09 13:04:27</sys_created_on>
         <sys_id>2d352e3947c24210edd8b4b4116d43a1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 17:29:37</sys_updated_on>
+        <sys_updated_on>2024-05-12 19:44:51</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 	try {&#13;
         var results = JSON.parse(inputs.details);&#13;
 &#13;
         // Sort the results based on the total execution speed&#13;
-        results.sort((a, b) =&gt; a.total_execution_time_MS - b.total_execution_time_MS);&#13;
+        var sorted_results = results.sort((a, b) =&gt; a.total_execution_time_MS - b.total_execution_time_MS);&#13;
 &#13;
-        var html = '&lt;div&gt;Fastest script is &lt;strong&gt;' + results[0].script_name + '&lt;/strong&gt; with an average execution time of ' + results[0].average_time_MS + ' milliseconds';&#13;
-        html += '&lt;br&gt;Slowest script is &lt;strong&gt;' + results[results.length - 1].script_name + '&lt;/strong&gt; with an average execution time of ' + results[results.length - 1].average_time_MS + ' milliseconds&lt;/div&gt;';&#13;
-        html += '&lt;br&gt;&lt;br&gt;';&#13;
-        html += '&lt;table&gt;';&#13;
+		var ran_by_user = gs.getUserDisplayName(inputs.test_definition.getValue('ran_by'));&#13;
+&#13;
+        // CSS styling is set in a system property&#13;
+        var style_css = gs.getProperty('x_1397355_s_speed.result.style', '');&#13;
+        var html = style_css + '&lt;container&gt;';&#13;
+&#13;
+        html += '&lt;div id="results_summary"&gt;Test ran by &lt;strong&gt;'+ ran_by_user + '&lt;/strong&gt;';&#13;
+        html += '&lt;br&gt;&lt;br&gt;Fastest script is &lt;strong&gt;' + results[0].script_name + '&lt;/strong&gt; with an average execution time of ' + results[0].average_time_MS + ' milliseconds';&#13;
+        html += '&lt;br&gt;Slowest script is &lt;strong&gt;' + results[results.length - 1].script_name + '&lt;/strong&gt; with an average execution time of ' + results[results.length - 1].average_time_MS + ' milliseconds';&#13;
+        html += '&lt;br&gt;&lt;br&gt;Scripts in order from fastest to slowest. Iterations: ' +  results[0].iterations + '. Times are in milliseconds.';&#13;
+		html += '&lt;/div&gt;'&#13;
+        &#13;
+        // Set up a result table and columns&#13;
+        html += '&lt;table id="results_table"&gt;';&#13;
         html += '&lt;thead&gt;';&#13;
         html += '&lt;tr&gt;';&#13;
         html += '&lt;th&gt;Script&lt;/th&gt;';&#13;
@@ -1792,9 +1825,10 @@
         html += '&lt;/thead&gt;';&#13;
         html += '&lt;tbody&gt;';&#13;
 &#13;
-        var el = {}, time_diff_to_fastest = 0, fastest_avg = results[0].average_time_MS;&#13;
-        for (i = 0; i &lt; results.length; i++) {&#13;
-            el = results[i];&#13;
+        // Print the results to the table&#13;
+        var el = {}, time_diff_to_fastest = 0, fastest_avg = sorted_results[0].average_time_MS;&#13;
+        for (i = 0; i &lt; sorted_results.length; i++) {&#13;
+            el = sorted_results[i];&#13;
             if (i != 0) {&#13;
                 time_diff_to_fastest = Math.round(((el.average_time_MS - fastest_avg) / fastest_avg) * 100);&#13;
             };&#13;
@@ -1811,7 +1845,19 @@
 &#13;
         html += '&lt;/tbody&gt;';&#13;
         html += '&lt;/table&gt;';&#13;
-        html += '&lt;span&gt;Times are in milliseconds&lt;/span&gt;'&#13;
+&#13;
+        // Include the scripts that were used&#13;
+        html += '&lt;br&gt;&lt;br&gt;&lt;div id="scripts"&gt;Scripts used:';&#13;
+        for (i = 1; i &lt;= results.length; i++) {&#13;
+            var def_gr = inputs.test_definition;&#13;
+			html += '&lt;pre class="script"&gt;';&#13;
+			html += '&lt;span class="script_name"&gt;' + results[i - 1].script_name + '&lt;/span&gt;&lt;br&gt;';&#13;
+			html += escapeHtmlCharacters(def_gr.getValue('script_' + i)); // Escape the JS characters so it won't mess up the HTML&#13;
+			html += '&lt;/pre&gt;&lt;br&gt;';&#13;
+        }&#13;
+&#13;
+        html += '&lt;/div&gt;';&#13;
+        html += '&lt;/container&gt;';&#13;
 &#13;
         outputs.html = html;&#13;
 		outputs.success = true;&#13;
@@ -2787,14 +2833,14 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-09 13:04:27</sys_created_on>
         <sys_id>65352e3947c24210edd8b4b4116d43c3</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 17:31:37</sys_updated_on>
+        <sys_updated_on>2024-05-12 19:44:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
