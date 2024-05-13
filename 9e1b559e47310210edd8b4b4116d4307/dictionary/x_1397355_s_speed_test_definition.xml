@@ -17,6 +17,7 @@
                 <element inactive_on_update="false" label="9" sequence="9" value="9"/>
             </choice>
         </element>
+        <element label="Run by" max_length="32" name="run_by" reference="sys_user" type="reference"/>
         <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 1" max_length="16777215" name="script_1" type="script"/>
         <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 2" max_length="16777215" name="script_2" type="script"/>
         <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 3" max_length="16777215" name="script_3" type="script"/>
@@ -42,5 +43,8 @@
                 <element inactive_on_update="false" label="Error" sequence="300" value="300"/>
             </choice>
         </element>
+        <index name="index">
+            <element name="run_by"/>
+        </index>
     </element>
 </database>
