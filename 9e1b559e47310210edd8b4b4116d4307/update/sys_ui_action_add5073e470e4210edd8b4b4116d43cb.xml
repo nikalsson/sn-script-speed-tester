@@ -31,7 +31,7 @@
         <onclick/>
         <order>-100</order>
         <script><![CDATA[current.setValue('state', 200);
-current.setValue('run_by', gs.getUserID());
+current.setValue('last_run_by', gs.getUserID());
 current.update();
 action.setRedirectURL(current);
 gs.addInfoMessage('Your script is running. Please wait for the results.')]]></script>
@@ -45,15 +45,15 @@ gs.addInfoMessage('Your script is running. Please wait for the results.')]]></sc
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>add5073e470e4210edd8b4b4116d43cb</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Run script</sys_name>
         <sys_overrides/>
         <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
         <sys_policy/>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name>sys_ui_action_add5073e470e4210edd8b4b4116d43cb</sys_update_name>
-        <sys_updated_by>nat-admin</sys_updated_by>
-        <sys_updated_on>2024-05-12 18:58:43</sys_updated_on>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-13 19:19:11</sys_updated_on>
         <table>x_1397355_s_speed_test_definition</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

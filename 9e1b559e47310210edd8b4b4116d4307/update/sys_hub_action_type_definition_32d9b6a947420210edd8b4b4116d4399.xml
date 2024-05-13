@@ -16,7 +16,7 @@
         <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>write_script_test_results</internal_name>
-        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_d}}","label":"action➛Test D","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_definition}}","label":"action➛Test Definition","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_resuilts}}","label":"action➛Test Resuilts","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.script_execution_details}}","label":"action➛Script Execution Details","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].success}}","label":"step➛Script step➛Success","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].html}}","label":"step➛Script step➛HTML","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].error_details1}}","label":"step➛Script step➛Error Details","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_d}}","label":"action➛Test D","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_definition}}","label":"action➛Test Definition","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_resuilts}}","label":"action➛Test Resuilts","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.script_execution_details}}","label":"action➛Script Execution Details","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].success}}","label":"step➛Script step➛Success","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].html}}","label":"step➛Script step➛HTML","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].error_details}}","label":"step➛Script step➛Error Details","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"9adaa320-53c7-4085-9b98-7485a3773ba4"}}]</label_cache>
         <master_snapshot>a9352e3947c24210edd8b4b4116d4382</master_snapshot>
         <name>Write Script Test Results To HTML</name>
         <natlang/>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>32d9b6a947420210edd8b4b4116d4399</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_name>Write Script Test Results To HTML</sys_name>
         <sys_overrides/>
         <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_32d9b6a947420210edd8b4b4116d4399</sys_update_name>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-12 19:44:51</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:18:58</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -93,11 +93,11 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-11 17:31:14</sys_created_on>
         <sys_id>0175bda247c20210edd8b4b4116d4397</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 17:31:14</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:07:03</sys_updated_on>
         <table>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</table>
-        <value>{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].error_details1}}</value>
+        <value>{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].error_details}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>string</field>
@@ -165,10 +165,10 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 20:04:04</sys_created_on>
         <sys_id>eaab326d47420210edd8b4b4116d4363</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-12 19:44:46</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:18:56</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eaab326d47420210edd8b4b4116d4363"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -193,23 +193,23 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 20:04:04</sys_created_on>
         <sys_id>feab326d47420210edd8b4b4116d4381</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-12 19:44:46</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:18:56</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 	try {&#13;
         var results = JSON.parse(inputs.details);&#13;
 &#13;
         // Sort the results based on the total execution speed&#13;
-        var sorted_results = results.sort((a, b) =&gt; a.total_execution_time_MS - b.total_execution_time_MS);&#13;
+        results.sort((a, b) =&gt; a.total_execution_time_MS - b.total_execution_time_MS);&#13;
 &#13;
-		var ran_by_user = gs.getUserDisplayName(inputs.test_definition.getValue('ran_by'));&#13;
+		var ran_by_user = inputs.test_definition.getDisplayValue('last_run_by');&#13;
 &#13;
         // CSS styling is set in a system property&#13;
         var style_css = gs.getProperty('x_1397355_s_speed.result.style', '');&#13;
         var html = style_css + '&lt;container&gt;';&#13;
 &#13;
-        html += '&lt;div id="results_summary"&gt;Test ran by &lt;strong&gt;'+ ran_by_user + '&lt;/strong&gt;';&#13;
+        html += '&lt;div id="results_summary"&gt;Test ran by &lt;strong&gt;'+ ran_by_user + '&lt;/strong&gt; at ' + inputs.test_definition.sys_updated_on;&#13;
         html += '&lt;br&gt;&lt;br&gt;Fastest script is &lt;strong&gt;' + results[0].script_name + '&lt;/strong&gt; with an average execution time of ' + results[0].average_time_MS + ' milliseconds';&#13;
         html += '&lt;br&gt;Slowest script is &lt;strong&gt;' + results[results.length - 1].script_name + '&lt;/strong&gt; with an average execution time of ' + results[results.length - 1].average_time_MS + ' milliseconds';&#13;
         html += '&lt;br&gt;&lt;br&gt;Scripts in order from fastest to slowest. Iterations: ' +  results[0].iterations + '. Times are in milliseconds.';&#13;
@@ -230,9 +230,9 @@
         html += '&lt;tbody&gt;';&#13;
 &#13;
         // Print the results to the table&#13;
-        var el = {}, time_diff_to_fastest = 0, fastest_avg = sorted_results[0].average_time_MS;&#13;
-        for (i = 0; i &lt; sorted_results.length; i++) {&#13;
-            el = sorted_results[i];&#13;
+        var el = {}, time_diff_to_fastest = 0, fastest_avg = results[0].average_time_MS;&#13;
+        for (i = 0; i &lt; results.length; i++) {&#13;
+            el = results[i];&#13;
             if (i != 0) {&#13;
                 time_diff_to_fastest = Math.round(((el.average_time_MS - fastest_avg) / fastest_avg) * 100);&#13;
             };&#13;
@@ -267,11 +267,25 @@
 		outputs.success = true;&#13;
     } catch (ex) {&#13;
 		gs.error('Error in Flow Action "Write Script Test Results":\n' + ex)&#13;
-		outputs.success = false&#13;
-		outputs.error_details = ex;&#13;
+		outputs.error_details = ex.message;&#13;
+		outputs.success = false;&#13;
 	}&#13;
 })(inputs, outputs);&#13;
-</value>
+&#13;
+function escapeHtmlCharacters(script) {&#13;
+    return script.replace(/[&amp;&lt;&gt;"'`=\/]/g, function(char) {&#13;
+        return {&#13;
+            '&amp;': '&amp;amp;',&#13;
+            '&lt;': '&amp;lt;',&#13;
+            '&gt;': '&amp;gt;',&#13;
+            '"': '&amp;quot;',&#13;
+            "'": '&amp;#39;',&#13;
+            '`': '&amp;#x60;',&#13;
+            '=': '&amp;#x3D;',&#13;
+            '/': '&amp;#x2F;'&#13;
+        }[char];&#13;
+    });&#13;
+}</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=eaab326d47420210edd8b4b4116d4363"/>
@@ -493,7 +507,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=eaab326d47420210edd8b4b4116d4363^sys_idNOT IN9415f1a247c20210edd8b4b4116d43eb,ac15f1a247c20210edd8b4b4116d43f2,c575bda247c20210edd8b4b4116d4373"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=eaab326d47420210edd8b4b4116d4363^sys_idNOT IN9415f1a247c20210edd8b4b4116d43eb,ac15f1a247c20210edd8b4b4116d43f2,cd1c50df4786c210edd8b4b4116d43c0"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -664,7 +678,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=858875c2-d4bd-4fe8-949b-f9e8eeb84876</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9adaa320-53c7-4085-9b98-7485a3773ba4</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -688,7 +702,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>error_details1</element>
+        <element>error_details</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -721,16 +735,16 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>nik-admin</sys_created_by>
-        <sys_created_on>2024-05-11 17:31:13</sys_created_on>
-        <sys_id>c575bda247c20210edd8b4b4116d4373</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2024-05-13 18:56:11</sys_created_on>
+        <sys_id>cd1c50df4786c210edd8b4b4116d43c0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 17:31:13</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:01:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -744,7 +758,30 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=eaab326d47420210edd8b4b4116d4363"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_eaab326d47420210edd8b4b4116d4363^sys_idNOT IN6415f1a247c20210edd8b4b4116d43f5,c175bda247c20210edd8b4b4116d4376,e415f1a247c20210edd8b4b4116d43f1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_eaab326d47420210edd8b4b4116d4363^sys_idNOT IN011c50df4786c210edd8b4b4116d43c4,6415f1a247c20210edd8b4b4116d43f5,e415f1a247c20210edd8b4b4116d43f1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error_details</element>
+        <help/>
+        <hint/>
+        <label>Error Details</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_eaab326d47420210edd8b4b4116d4363</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-13 18:56:11</sys_created_on>
+        <sys_id>011c50df4786c210edd8b4b4116d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-13 18:56:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>html</element>
         <help/>
@@ -765,29 +802,6 @@
         <sys_update_name/>
         <sys_updated_by>nik-admin</sys_updated_by>
         <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>error_details1</element>
-        <help/>
-        <hint/>
-        <label>Error Details</label>
-        <language>en</language>
-        <name>var__m_sys_hub_step_ext_output_eaab326d47420210edd8b4b4116d4363</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>nik-admin</sys_created_by>
-        <sys_created_on>2024-05-11 17:31:13</sys_created_on>
-        <sys_id>c175bda247c20210edd8b4b4116d4376</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 17:31:13</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1223,14 +1237,14 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 20:04:04</sys_created_on>
         <sys_id>baab326d47420210edd8b4b4116d438a</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-12 19:44:50</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:18:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1600,17 +1614,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Write Script Test Results To HTML">32d9b6a947420210edd8b4b4116d4399</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"fd356e3947c24210edd8b4b4116d4316","name":"plan","plan_signature":null}}</plan>
-        <snapshot>9caddf7e478e4210edd8b4b4116d43a0</snapshot>
+        <snapshot>6a41601b47c6c210edd8b4b4116d4368</snapshot>
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-09 13:04:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fd356e3947c24210edd8b4b4116d4316</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-12 19:44:52</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:18:58</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>package_private</access>
@@ -1627,7 +1641,7 @@
         <description/>
         <flow_priority/>
         <internal_name>write_script_test_results</internal_name>
-        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_d}}","label":"action➛Test D","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_definition}}","label":"action➛Test Definition","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_resuilts}}","label":"action➛Test Resuilts","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.script_execution_details}}","label":"action➛Script Execution Details","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].success}}","label":"step➛Script step➛Success","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].html}}","label":"step➛Script step➛HTML","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].error_details1}}","label":"step➛Script step➛Error Details","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_d}}","label":"action➛Test D","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_definition}}","label":"action➛Test Definition","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_resuilts}}","label":"action➛Test Resuilts","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.script_execution_details}}","label":"action➛Script Execution Details","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].success}}","label":"step➛Script step➛Success","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].html}}","label":"step➛Script step➛HTML","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].error_details}}","label":"step➛Script step➛Error Details","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"9adaa320-53c7-4085-9b98-7485a3773ba4"}}]</label_cache>
         <master>true</master>
         <name>Write Script Test Results To HTML</name>
         <natlang/>
@@ -1640,7 +1654,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a9352e3947c24210edd8b4b4116d4382</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1648,7 +1662,7 @@
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 17:31:36</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:07:15</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1703,11 +1717,11 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-11 17:31:37</sys_created_on>
         <sys_id>f68571e247c20210edd8b4b4116d4310</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 17:31:37</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:07:15</sys_updated_on>
         <table>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</table>
-        <value>{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].error_details1}}</value>
+        <value>{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].error_details}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>string</field>
@@ -1775,10 +1789,10 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-09 13:04:26</sys_created_on>
         <sys_id>e1352e3947c24210edd8b4b4116d4392</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-12 19:44:51</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:18:57</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e1352e3947c24210edd8b4b4116d4392"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1789,23 +1803,23 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-09 13:04:27</sys_created_on>
         <sys_id>2d352e3947c24210edd8b4b4116d43a1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-12 19:44:51</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:18:57</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 	try {&#13;
         var results = JSON.parse(inputs.details);&#13;
 &#13;
         // Sort the results based on the total execution speed&#13;
-        var sorted_results = results.sort((a, b) =&gt; a.total_execution_time_MS - b.total_execution_time_MS);&#13;
+        results.sort((a, b) =&gt; a.total_execution_time_MS - b.total_execution_time_MS);&#13;
 &#13;
-		var ran_by_user = gs.getUserDisplayName(inputs.test_definition.getValue('ran_by'));&#13;
+		var ran_by_user = inputs.test_definition.getDisplayValue('last_run_by');&#13;
 &#13;
         // CSS styling is set in a system property&#13;
         var style_css = gs.getProperty('x_1397355_s_speed.result.style', '');&#13;
         var html = style_css + '&lt;container&gt;';&#13;
 &#13;
-        html += '&lt;div id="results_summary"&gt;Test ran by &lt;strong&gt;'+ ran_by_user + '&lt;/strong&gt;';&#13;
+        html += '&lt;div id="results_summary"&gt;Test ran by &lt;strong&gt;'+ ran_by_user + '&lt;/strong&gt; at ' + inputs.test_definition.sys_updated_on;&#13;
         html += '&lt;br&gt;&lt;br&gt;Fastest script is &lt;strong&gt;' + results[0].script_name + '&lt;/strong&gt; with an average execution time of ' + results[0].average_time_MS + ' milliseconds';&#13;
         html += '&lt;br&gt;Slowest script is &lt;strong&gt;' + results[results.length - 1].script_name + '&lt;/strong&gt; with an average execution time of ' + results[results.length - 1].average_time_MS + ' milliseconds';&#13;
         html += '&lt;br&gt;&lt;br&gt;Scripts in order from fastest to slowest. Iterations: ' +  results[0].iterations + '. Times are in milliseconds.';&#13;
@@ -1826,9 +1840,9 @@
         html += '&lt;tbody&gt;';&#13;
 &#13;
         // Print the results to the table&#13;
-        var el = {}, time_diff_to_fastest = 0, fastest_avg = sorted_results[0].average_time_MS;&#13;
-        for (i = 0; i &lt; sorted_results.length; i++) {&#13;
-            el = sorted_results[i];&#13;
+        var el = {}, time_diff_to_fastest = 0, fastest_avg = results[0].average_time_MS;&#13;
+        for (i = 0; i &lt; results.length; i++) {&#13;
+            el = results[i];&#13;
             if (i != 0) {&#13;
                 time_diff_to_fastest = Math.round(((el.average_time_MS - fastest_avg) / fastest_avg) * 100);&#13;
             };&#13;
@@ -1863,11 +1877,25 @@
 		outputs.success = true;&#13;
     } catch (ex) {&#13;
 		gs.error('Error in Flow Action "Write Script Test Results":\n' + ex)&#13;
-		outputs.success = false&#13;
-		outputs.error_details = ex;&#13;
+		outputs.error_details = ex.message;&#13;
+		outputs.success = false;&#13;
 	}&#13;
 })(inputs, outputs);&#13;
-</value>
+&#13;
+function escapeHtmlCharacters(script) {&#13;
+    return script.replace(/[&amp;&lt;&gt;"'`=\/]/g, function(char) {&#13;
+        return {&#13;
+            '&amp;': '&amp;amp;',&#13;
+            '&lt;': '&amp;lt;',&#13;
+            '&gt;': '&amp;gt;',&#13;
+            '"': '&amp;quot;',&#13;
+            "'": '&amp;#39;',&#13;
+            '`': '&amp;#x60;',&#13;
+            '=': '&amp;#x3D;',&#13;
+            '/': '&amp;#x2F;'&#13;
+        }[char];&#13;
+    });&#13;
+}</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2103,90 +2131,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=e1352e3947c24210edd8b4b4116d4392^sys_idNOT IN268531e247c20210edd8b4b4116d43ed,291575a247c20210edd8b4b4116d4315,691575a247c20210edd8b4b4116d4311"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=858875c2-d4bd-4fe8-949b-f9e8eeb84876</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>error_details1</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Error Details</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Script step">e1352e3947c24210edd8b4b4116d4392</model>
-        <model_id>e1352e3947c24210edd8b4b4116d4392</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_e1352e3947c24210edd8b4b4116d4392</name>
-        <next_element/>
-        <order>3</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>nik-admin</sys_created_by>
-        <sys_created_on>2024-05-11 17:31:36</sys_created_on>
-        <sys_id>268531e247c20210edd8b4b4116d43ed</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 17:31:36</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e1352e3947c24210edd8b4b4116d4392^sys_idNOT IN291575a247c20210edd8b4b4116d4315,439e50d347c6c210edd8b4b4116d4364,691575a247c20210edd8b4b4116d4311"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2258,6 +2203,89 @@
         <sys_update_name/>
         <sys_updated_by>nik-admin</sys_updated_by>
         <sys_updated_on>2024-05-11 17:29:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9adaa320-53c7-4085-9b98-7485a3773ba4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error_details</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error Details</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e1352e3947c24210edd8b4b4116d4392</model>
+        <model_id>e1352e3947c24210edd8b4b4116d4392</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e1352e3947c24210edd8b4b4116d4392</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-13 19:07:15</sys_created_on>
+        <sys_id>439e50d347c6c210edd8b4b4116d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-13 19:07:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2354,9 +2382,9 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e1352e3947c24210edd8b4b4116d4392"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e1352e3947c24210edd8b4b4116d4392^sys_idNOT IN2e8531e247c20210edd8b4b4116d43ef,691575a247c20210edd8b4b4116d4314,ed1575a247c20210edd8b4b4116d4317"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e1352e3947c24210edd8b4b4116d4392^sys_idNOT IN439e50d347c6c210edd8b4b4116d4367,691575a247c20210edd8b4b4116d4314,ed1575a247c20210edd8b4b4116d4317"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>error_details1</element>
+        <element>error_details</element>
         <help/>
         <hint/>
         <label>Error Details</label>
@@ -2365,8 +2393,8 @@
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>nik-admin</sys_created_by>
-        <sys_created_on>2024-05-11 17:31:36</sys_created_on>
-        <sys_id>2e8531e247c20210edd8b4b4116d43ef</sys_id>
+        <sys_created_on>2024-05-13 19:07:15</sys_created_on>
+        <sys_id>439e50d347c6c210edd8b4b4116d4367</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
@@ -2374,7 +2402,7 @@
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 17:31:36</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:07:15</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -2833,14 +2861,14 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-09 13:04:27</sys_created_on>
         <sys_id>65352e3947c24210edd8b4b4116d43c3</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-12 19:44:51</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:18:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

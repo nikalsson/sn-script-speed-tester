@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="069b9d9e47310210edd8b4b4116d437a" label="Test Definition" max_length="40" name="x_1397355_s_speed_test_definition" type="collection">
         <element label="Description" max_length="1000" name="description" type="string"/>
-        <element label="Error" max_length="1000" name="error" read_only="true" type="string"/>
-        <element default="25" label="Iterations" max_length="4" name="iterations" type="string"/>
+        <element label="Error" max_length="100000" name="error" read_only="true" type="string"/>
+        <element default="25" label="Iterations" mandatory="true" max_length="4" name="iterations" type="string"/>
+        <element attributes="readonly_clickthrough=true" label="Last run by" max_length="32" name="last_run_by" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Last successful run" max_length="40" name="last_succesful_run" read_only="true" type="glide_date_time"/>
+        <element attributes="encode_utf8=false,readonly_clickthrough=true" label="Last test result" max_length="32" name="last_test_result" read_only="true" reference="x_1397355_s_speed_test_result" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="255" name="name" type="string"/>
         <element choice="3" default="2" label="Number of scripts" max_length="40" name="number_of_scripts" type="choice">
             <choice>
@@ -17,7 +20,6 @@
                 <element inactive_on_update="false" label="9" sequence="9" value="9"/>
             </choice>
         </element>
-        <element label="Run by" max_length="32" name="run_by" reference="sys_user" type="reference"/>
         <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 1" max_length="16777215" name="script_1" type="script"/>
         <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 2" max_length="16777215" name="script_2" type="script"/>
         <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 3" max_length="16777215" name="script_3" type="script"/>
@@ -44,7 +46,10 @@
             </choice>
         </element>
         <index name="index">
-            <element name="run_by"/>
+            <element name="last_run_by"/>
+        </index>
+        <index name="index2">
+            <element name="last_test_result"/>
         </index>
     </element>
 </database>

@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ec67cb9647790210edd8b4b4116d43ee</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>61</sys_mod_count>
         <sys_name>Execute Scripts</sys_name>
         <sys_overrides/>
         <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_ec67cb9647790210edd8b4b4116d43ee</sys_update_name>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 14:20:37</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:06:24</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -80,10 +80,10 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-04-28 20:09:52</sys_created_on>
         <sys_id>c21d57d647f90210edd8b4b4116d4327</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:11:38</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <sys_updated_on>2024-05-13 19:06:19</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">861d57d647f90210edd8b4b4116d4305</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ec67cb9647790210edd8b4b4116d43ee"/>
@@ -177,10 +177,10 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-04-28 20:09:51</sys_created_on>
         <sys_id>4a1d17d647f90210edd8b4b4116d43db</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 14:20:32</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:06:19</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4a1d17d647f90210edd8b4b4116d43db"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -205,9 +205,9 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-04-28 20:09:52</sys_created_on>
         <sys_id>c61d57d647f90210edd8b4b4116d4301</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 14:20:32</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:06:19</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 	try {&#13;
 		var number_of_scripts = parseInt(inputs.test_definition.getValue('number_of_scripts'), 10);&#13;
@@ -267,7 +267,7 @@
 	} catch (ex) {&#13;
 		gs.error('Error in Flow Action "Execute Scripts":\n' + ex)&#13;
 		outputs.success = false&#13;
-		outputs.error_details = ex;&#13;
+		outputs.error_details = ex.message;&#13;
 	}&#13;
 })(inputs, outputs);</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -868,14 +868,14 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-04-28 20:09:52</sys_created_on>
         <sys_id>461d57d647f90210edd8b4b4116d430e</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read_only</sys_policy>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 14:20:35</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:06:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1396,17 +1396,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Execute Scripts">ec67cb9647790210edd8b4b4116d43ee</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"604eee6947020210edd8b4b4116d43ab","name":"plan","plan_signature":null}}</plan>
-        <snapshot>11a67a7147464210edd8b4b4116d43f0</snapshot>
+        <snapshot>666ed89347c6c210edd8b4b4116d4318</snapshot>
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 19:05:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>604eee6947020210edd8b4b4116d43ab</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 14:20:38</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:06:24</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>package_private</access>
@@ -1486,10 +1486,10 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 19:05:28</sys_created_on>
         <sys_id>d04eee6947020210edd8b4b4116d4364</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:11:40</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <sys_updated_on>2024-05-13 19:06:24</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">544eee6947020210edd8b4b4116d434e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=cc4eee6947020210edd8b4b4116d4325"/>
@@ -1583,10 +1583,10 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 19:05:27</sys_created_on>
         <sys_id>044eee6947020210edd8b4b4116d4335</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 14:20:36</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:06:23</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=044eee6947020210edd8b4b4116d4335"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1597,9 +1597,9 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 19:05:28</sys_created_on>
         <sys_id>884eee6947020210edd8b4b4116d4349</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 14:20:36</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:06:23</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 	try {&#13;
 		var number_of_scripts = parseInt(inputs.test_definition.getValue('number_of_scripts'), 10);&#13;
@@ -1659,7 +1659,7 @@
 	} catch (ex) {&#13;
 		gs.error('Error in Flow Action "Execute Scripts":\n' + ex)&#13;
 		outputs.success = false&#13;
-		outputs.error_details = ex;&#13;
+		outputs.error_details = ex.message;&#13;
 	}&#13;
 })(inputs, outputs);</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -2448,14 +2448,14 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 19:05:28</sys_created_on>
         <sys_id>904eee6947020210edd8b4b4116d4357</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 14:20:37</sys_updated_on>
+        <sys_updated_on>2024-05-13 19:06:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

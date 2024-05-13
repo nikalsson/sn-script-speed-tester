@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="run_by" label="Run by" language="en" table="x_1397355_s_speed_test_definition">
+    <sys_documentation element="last_test_result" label="Last test result" language="en" table="x_1397355_s_speed_test_definition">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>run_by</element>
+            <element>last_test_result</element>
             <help/>
             <hint/>
-            <label>Run by</label>
+            <label>Last test result</label>
             <language>en</language>
             <name>x_1397355_s_speed_test_definition</name>
-            <plural>Run by</plural>
+            <plural>Last test results</plural>
             <sys_class_name>sys_documentation</sys_class_name>
-            <sys_created_by>nat-admin</sys_created_by>
-            <sys_created_on>2024-05-12 18:34:08</sys_created_on>
+            <sys_created_by>nik-admin</sys_created_by>
+            <sys_created_on>2024-05-13 18:50:27</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Run by</sys_name>
+            <sys_name>Last test result</sys_name>
             <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
             <sys_policy/>
             <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
-            <sys_update_name>sys_documentation_x_1397355_s_speed_test_definition_run_by_en</sys_update_name>
-            <sys_updated_by>nat-admin</sys_updated_by>
-            <sys_updated_on>2024-05-12 18:34:08</sys_updated_on>
+            <sys_update_name>sys_documentation_x_1397355_s_speed_test_definition_last_test_result_en</sys_update_name>
+            <sys_updated_by>nik-admin</sys_updated_by>
+            <sys_updated_on>2024-05-13 18:50:27</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
