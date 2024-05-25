@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-25 18:42:05</sys_created_on>
+        <sys_id>25eb428747d20210edd8b4b4116d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1397355_s_speed_test_definition.*.x_1397355_s_speed.user</sys_name>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_security_acl display_value="x_1397355_s_speed_test_definition.*">54ebc28747d20210edd8b4b4116d433d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_25eb428747d20210edd8b4b4116d433b</sys_update_name>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 18:42:05</sys_updated_on>
+        <sys_user_role display_value="x_1397355_s_speed.user" name="x_1397355_s_speed.user">b83bd91e47310210edd8b4b4116d43b0</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

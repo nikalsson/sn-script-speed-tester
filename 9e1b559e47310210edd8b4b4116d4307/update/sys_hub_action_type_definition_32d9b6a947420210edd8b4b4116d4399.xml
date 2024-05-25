@@ -1,0 +1,3242 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>write_script_test_results</internal_name>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_d}}","label":"action➛Test D","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_definition}}","label":"action➛Test Definition","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_resuilts}}","label":"action➛Test Resuilts","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.script_execution_details}}","label":"action➛Script Execution Details","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].success}}","label":"step➛Script step➛Success","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].html}}","label":"step➛Script step➛HTML","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].error_details}}","label":"step➛Script step➛Error Details","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"9adaa320-53c7-4085-9b98-7485a3773ba4"}}]</label_cache>
+        <master_snapshot>a9352e3947c24210edd8b4b4116d4382</master_snapshot>
+        <name>Write Script Test Results To HTML</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 19:56:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32d9b6a947420210edd8b4b4116d4399</sys_id>
+        <sys_mod_count>53</sys_mod_count>
+        <sys_name>Write Script Test Results To HTML</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_32d9b6a947420210edd8b4b4116d4399</sys_update_name>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 17:02:29</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=32d9b6a947420210edd8b4b4116d4399"/>
+    <sys_variable_value action="delete_multiple" query="document_key=32d9b6a947420210edd8b4b4116d4399"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>32d9b6a947420210edd8b4b4116d4399</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:33</sys_created_on>
+        <sys_id>ac1535a247c20210edd8b4b4116d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Success">ec15f1a247c20210edd8b4b4116d43fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>32d9b6a947420210edd8b4b4116d4399</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:05</sys_created_on>
+        <sys_id>beab326d47420210edd8b4b4116d4392</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">3eab326d47420210edd8b4b4116d4385</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>32d9b6a947420210edd8b4b4116d4399</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:05</sys_created_on>
+        <sys_id>faab326d47420210edd8b4b4116d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:05</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">baab326d47420210edd8b4b4116d438a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=32d9b6a947420210edd8b4b4116d4399"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_details</field>
+        <id>32d9b6a947420210edd8b4b4116d4399</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:31:14</sys_created_on>
+        <sys_id>0175bda247c20210edd8b4b4116d4397</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-13 19:07:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</table>
+        <value>{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].error_details}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>string</field>
+        <id>32d9b6a947420210edd8b4b4116d4399</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:33</sys_created_on>
+        <sys_id>a01535a247c20210edd8b4b4116d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
+        <table>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</table>
+        <value>{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].html}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>success</field>
+        <id>32d9b6a947420210edd8b4b4116d4399</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:33</sys_created_on>
+        <sys_id>a81535a247c20210edd8b4b4116d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
+        <table>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</table>
+        <value>{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].success}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>32d9b6a947420210edd8b4b4116d4399</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:05</sys_created_on>
+        <sys_id>7aab326d47420210edd8b4b4116d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>32d9b6a947420210edd8b4b4116d4399</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:05</sys_created_on>
+        <sys_id>b6ab326d47420210edd8b4b4116d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=32d9b6a947420210edd8b4b4116d4399^sys_idNOT INeaab326d47420210edd8b4b4116d4363"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Write Script Test Results To HTML">32d9b6a947420210edd8b4b4116d4399</action>
+        <cid>de1ab782-faf3-4444-8a03-377ce0cf92f2</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>eaab326d47420210edd8b4b4116d4363</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-13 19:18:56</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=eaab326d47420210edd8b4b4116d4363"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>eaab326d47420210edd8b4b4116d4363</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>3aab326d47420210edd8b4b4116d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:04</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>eaab326d47420210edd8b4b4116d4363</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>feab326d47420210edd8b4b4116d4381</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 17:01:53</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+	try {&#13;
+        var results = JSON.parse(inputs.details);&#13;
+&#13;
+        // Sort the results based on the total execution speed&#13;
+        results.sort((a, b) =&gt; a.total_execution_time_MS - b.total_execution_time_MS);&#13;
+&#13;
+		var ran_by_user = inputs.test_definition.getDisplayValue('last_run_by');&#13;
+&#13;
+        // CSS styling is set in a system property&#13;
+        var style_css = gs.getProperty('x_1397355_s_speed.result.style', '');&#13;
+        var html = style_css + '&lt;container&gt;';&#13;
+&#13;
+        html += '&lt;div id="results_summary"&gt;Test ran by &lt;strong&gt;'+ ran_by_user + '&lt;/strong&gt; at ' + inputs.test_definition.sys_updated_on;&#13;
+        html += '&lt;br&gt;&lt;br&gt;Fastest script is &lt;strong&gt;' + results[0].script_name + '&lt;/strong&gt; with an average execution time of ' + results[0].average_time_MS + ' milliseconds';&#13;
+        html += '&lt;br&gt;Slowest script is &lt;strong&gt;' + results[results.length - 1].script_name + '&lt;/strong&gt; with an average execution time of ' + results[results.length - 1].average_time_MS + ' milliseconds';&#13;
+        html += '&lt;br&gt;&lt;br&gt;Scripts in order from fastest to slowest. Iterations: ' +  results[0].iterations + '. Times are in milliseconds.';&#13;
+		html += '&lt;/div&gt;'&#13;
+        &#13;
+        // Set up a result table and columns&#13;
+        html += '&lt;table id="results_table"&gt;';&#13;
+        html += '&lt;thead&gt;';&#13;
+        html += '&lt;tr&gt;';&#13;
+        html += '&lt;th&gt;Script&lt;/th&gt;';&#13;
+        html += '&lt;th&gt;Script #&lt;/th&gt;';&#13;
+        html += '&lt;th&gt;Average Time&lt;/th&gt;';&#13;
+        html += '&lt;th&gt;Total Execution Time&lt;/th&gt;';&#13;
+        html += '&lt;th&gt;Slower than Fastest, %&lt;/th&gt;';&#13;
+        html += '&lt;th&gt;Execution Times&lt;/th&gt;';&#13;
+        html += '&lt;/tr&gt;';&#13;
+        html += '&lt;/thead&gt;';&#13;
+        html += '&lt;tbody&gt;';&#13;
+&#13;
+        // Print the results to the table&#13;
+        var el = {}, time_diff_to_fastest = 0, fastest_avg = results[0].average_time_MS;&#13;
+        for (i = 0; i &lt; results.length; i++) {&#13;
+            el = results[i];&#13;
+            if (i != 0) {&#13;
+                time_diff_to_fastest = Math.round(((el.average_time_MS - fastest_avg) / fastest_avg) * 100);&#13;
+            };&#13;
+&#13;
+            html += '&lt;tr&gt;';&#13;
+            html += '&lt;td&gt;' + el.script_name + '&lt;/td&gt;';&#13;
+            html += '&lt;td&gt;' + el.script_field_name.substring(el.script_field_name.length - 1, el.script_field_name.length) + '&lt;/td&gt;';&#13;
+            html += '&lt;td&gt;' + el.average_time_MS + '&lt;/td&gt;';&#13;
+            html += '&lt;td&gt;' + el.total_execution_time_MS + '&lt;/td&gt;';&#13;
+            html += '&lt;td&gt;' + time_diff_to_fastest + '&lt;/td&gt;';&#13;
+            html += '&lt;td&gt;' + el.execution_time_per_iteration.join(', ') + '&lt;/td&gt;';&#13;
+            html += '&lt;/tr&gt;';&#13;
+        }&#13;
+&#13;
+        html += '&lt;/tbody&gt;';&#13;
+        html += '&lt;/table&gt;';&#13;
+&#13;
+        // Include the scripts that were used&#13;
+        html += '&lt;br&gt;&lt;br&gt;&lt;div id="scripts"&gt;Scripts used:';&#13;
+        for (i = 1; i &lt;= results.length; i++) {&#13;
+            var def_gr = inputs.test_definition;&#13;
+			html += '&lt;pre class="script"&gt;';&#13;
+			html += '&lt;span class="script_name"&gt;' + results[i - 1].script_name + '&lt;/span&gt;&lt;br&gt;';&#13;
+			html += escapeHtmlCharacters(def_gr.getValue(results[i - 1].script_field_name)); // Escape the JS characters so it won't mess up the HTML&#13;
+			html += '&lt;/pre&gt;&lt;br&gt;';&#13;
+        }&#13;
+&#13;
+        html += '&lt;/div&gt;';&#13;
+        html += '&lt;/container&gt;';&#13;
+&#13;
+        outputs.html = html;&#13;
+		outputs.success = true;&#13;
+    } catch (ex) {&#13;
+		gs.error('Error in Flow Action "Write Script Test Results":\n' + ex)&#13;
+		outputs.error_details = ex.message;&#13;
+		outputs.success = false;&#13;
+	}&#13;
+})(inputs, outputs);&#13;
+&#13;
+function escapeHtmlCharacters(script) {&#13;
+    return script.replace(/[&amp;&lt;&gt;"'`=\/]/g, function(char) {&#13;
+        return {&#13;
+            '&amp;': '&amp;amp;',&#13;
+            '&lt;': '&amp;lt;',&#13;
+            '&gt;': '&amp;gt;',&#13;
+            '"': '&amp;quot;',&#13;
+            "'": '&amp;#39;',&#13;
+            '`': '&amp;#x60;',&#13;
+            '=': '&amp;#x3D;',&#13;
+            '/': '&amp;#x2F;'&#13;
+        }[char];&#13;
+    });&#13;
+}</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=eaab326d47420210edd8b4b4116d4363"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>eaab326d47420210edd8b4b4116d4363</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>feab326d47420210edd8b4b4116d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>details</field>
+        <id>eaab326d47420210edd8b4b4116d4363</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>baab326d47420210edd8b4b4116d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_eaab326d47420210edd8b4b4116d4363</table>
+        <value>{{action.script_execution_details}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>eaab326d47420210edd8b4b4116d4363</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>b6ab326d47420210edd8b4b4116d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>test_definition</field>
+        <id>eaab326d47420210edd8b4b4116d4363</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>7eab326d47420210edd8b4b4116d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:04</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_eaab326d47420210edd8b4b4116d4363</table>
+        <value>{{action.test_definition}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_eaab326d47420210edd8b4b4116d4363^id=eaab326d47420210edd8b4b4116d4363"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=eaab326d47420210edd8b4b4116d4363"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=eaab326d47420210edd8b4b4116d4363"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=eaab326d47420210edd8b4b4116d4363^sys_idNOT INaaab326d47420210edd8b4b4116d4377,eaab326d47420210edd8b4b4116d437a"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>test_definition</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">eaab326d47420210edd8b4b4116d4363</model>
+        <model_id>eaab326d47420210edd8b4b4116d4363</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_eaab326d47420210edd8b4b4116d4363</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1397355_s_speed_test_definition">x_1397355_s_speed_test_definition</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>aaab326d47420210edd8b4b4116d4377</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>details</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">eaab326d47420210edd8b4b4116d4363</model>
+        <model_id>eaab326d47420210edd8b4b4116d4363</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_eaab326d47420210edd8b4b4116d4363</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>eaab326d47420210edd8b4b4116d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=eaab326d47420210edd8b4b4116d4363^sys_idNOT IN9415f1a247c20210edd8b4b4116d43eb,ac15f1a247c20210edd8b4b4116d43f2,cd1c50df4786c210edd8b4b4116d43c0"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=53263d17-2879-4d6b-9d82-33328c5077ce</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>success</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Success</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">eaab326d47420210edd8b4b4116d4363</model>
+        <model_id>eaab326d47420210edd8b4b4116d4363</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_eaab326d47420210edd8b4b4116d4363</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:33</sys_created_on>
+        <sys_id>9415f1a247c20210edd8b4b4116d43eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e94dec08-9cc0-47e1-8ab4-ef431eae714e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>html</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>HTML</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">eaab326d47420210edd8b4b4116d4363</model>
+        <model_id>eaab326d47420210edd8b4b4116d4363</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_eaab326d47420210edd8b4b4116d4363</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:33</sys_created_on>
+        <sys_id>ac15f1a247c20210edd8b4b4116d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9adaa320-53c7-4085-9b98-7485a3773ba4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error_details</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error Details</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">eaab326d47420210edd8b4b4116d4363</model>
+        <model_id>eaab326d47420210edd8b4b4116d4363</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_eaab326d47420210edd8b4b4116d4363</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-13 18:56:11</sys_created_on>
+        <sys_id>cd1c50df4786c210edd8b4b4116d43c0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-13 19:01:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eaab326d47420210edd8b4b4116d4363"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_eaab326d47420210edd8b4b4116d4363^sys_idNOT IN011c50df4786c210edd8b4b4116d43c4,6415f1a247c20210edd8b4b4116d43f5,e415f1a247c20210edd8b4b4116d43f1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error_details</element>
+        <help/>
+        <hint/>
+        <label>Error Details</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_eaab326d47420210edd8b4b4116d4363</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-13 18:56:11</sys_created_on>
+        <sys_id>011c50df4786c210edd8b4b4116d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-13 18:56:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>html</element>
+        <help/>
+        <hint/>
+        <label>HTML</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_eaab326d47420210edd8b4b4116d4363</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:33</sys_created_on>
+        <sys_id>6415f1a247c20210edd8b4b4116d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>success</element>
+        <help/>
+        <hint/>
+        <label>Success</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_eaab326d47420210edd8b4b4116d4363</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:33</sys_created_on>
+        <sys_id>e415f1a247c20210edd8b4b4116d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=32d9b6a947420210edd8b4b4116d4399^sys_idNOT IN66ab326d47420210edd8b4b4116d435e,a2abf62d47420210edd8b4b4116d431d"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4697fdb6-34e0-4298-b2a7-e8c6751de302</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>script_execution_details</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Script Execution Details</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Write Script Test Results To HTML">32d9b6a947420210edd8b4b4116d4399</model>
+        <model_id>32d9b6a947420210edd8b4b4116d4399</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_32d9b6a947420210edd8b4b4116d4399</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>66ab326d47420210edd8b4b4116d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=66ab326d47420210edd8b4b4116d435e"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=928e7a3e-abdb-4a42-a437-e540a39b14cf</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1397355_s_speed_test_definition</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>test_definition</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Test Definition</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Write Script Test Results To HTML">32d9b6a947420210edd8b4b4116d4399</model>
+        <model_id>32d9b6a947420210edd8b4b4116d4399</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_32d9b6a947420210edd8b4b4116d4399</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1397355_s_speed_test_definition">x_1397355_s_speed_test_definition</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>a2abf62d47420210edd8b4b4116d431d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a2abf62d47420210edd8b4b4116d431d"/>
+    <sys_hub_action_output action="delete_multiple" query="model=32d9b6a947420210edd8b4b4116d4399^sys_idNOT IN3eab326d47420210edd8b4b4116d4385,a81535a247c20210edd8b4b4116d4305,baab326d47420210edd8b4b4116d438a,c975bda247c20210edd8b4b4116d4390,ec15f1a247c20210edd8b4b4116d43fd"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=6ff2cdf8-b755-485f-b8c3-fc5f49e1e351</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Write Script Test Results To HTML">32d9b6a947420210edd8b4b4116d4399</model>
+        <model_id>32d9b6a947420210edd8b4b4116d4399</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>3eab326d47420210edd8b4b4116d4385</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3eab326d47420210edd8b4b4116d4385"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3eab326d47420210edd8b4b4116d4385"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=25597e42-0cde-449c-bd88-ef095ccc3ac5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>string</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>HTML</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Write Script Test Results To HTML">32d9b6a947420210edd8b4b4116d4399</model>
+        <model_id>32d9b6a947420210edd8b4b4116d4399</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:33</sys_created_on>
+        <sys_id>a81535a247c20210edd8b4b4116d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a81535a247c20210edd8b4b4116d4305"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a81535a247c20210edd8b4b4116d4305"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f275151a-3542-4cd6-98b8-9b60d83ec3a6,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Write Script Test Results To HTML">32d9b6a947420210edd8b4b4116d4399</model>
+        <model_id>32d9b6a947420210edd8b4b4116d4399</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>baab326d47420210edd8b4b4116d438a</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 17:02:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=baab326d47420210edd8b4b4116d438a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=baab326d47420210edd8b4b4116d438a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=b8396bd7-855b-4aeb-b827-a9cedbe8e562</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error_details</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error details</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Write Script Test Results To HTML">32d9b6a947420210edd8b4b4116d4399</model>
+        <model_id>32d9b6a947420210edd8b4b4116d4399</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:31:13</sys_created_on>
+        <sys_id>c975bda247c20210edd8b4b4116d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:31:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c975bda247c20210edd8b4b4116d4390"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c975bda247c20210edd8b4b4116d4390"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=31f439aa-56e2-4879-a49f-2293e24c92be</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>success</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Success</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Write Script Test Results To HTML">32d9b6a947420210edd8b4b4116d4399</model>
+        <model_id>32d9b6a947420210edd8b4b4116d4399</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:33</sys_created_on>
+        <sys_id>ec15f1a247c20210edd8b4b4116d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ec15f1a247c20210edd8b4b4116d43fd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ec15f1a247c20210edd8b4b4116d43fd"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=32d9b6a947420210edd8b4b4116d4399"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=32d9b6a947420210edd8b4b4116d4399^sys_idNOT INfaab326d47420210edd8b4b4116d4394"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Write Script Test Results To HTML">32d9b6a947420210edd8b4b4116d4399</action_type_id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:05</sys_created_on>
+        <sys_id>faab326d47420210edd8b4b4116d4394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:05</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=faab326d47420210edd8b4b4116d4394"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_32d9b6a947420210edd8b4b4116d4399^sys_idNOT IN66ab326d47420210edd8b4b4116d4361,e2abf62d47420210edd8b4b4116d4322"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>script_execution_details</element>
+        <help/>
+        <hint/>
+        <label>Script Execution Details</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_32d9b6a947420210edd8b4b4116d4399</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>66ab326d47420210edd8b4b4116d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>test_definition</element>
+        <help/>
+        <hint/>
+        <label>Test Definition</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_32d9b6a947420210edd8b4b4116d4399</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>e2abf62d47420210edd8b4b4116d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_32d9b6a947420210edd8b4b4116d4399"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399^sys_idNOT IN681535a247c20210edd8b4b4116d4308,6c1535a247c20210edd8b4b4116d4301,7eab326d47420210edd8b4b4116d438f,8975bda247c20210edd8b4b4116d4393,baab326d47420210edd8b4b4116d4389"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>string</element>
+        <help/>
+        <hint/>
+        <label>HTML</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:33</sys_created_on>
+        <sys_id>681535a247c20210edd8b4b4116d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>success</element>
+        <help/>
+        <hint/>
+        <label>Success</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:33</sys_created_on>
+        <sys_id>6c1535a247c20210edd8b4b4116d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:05</sys_created_on>
+        <sys_id>7eab326d47420210edd8b4b4116d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error_details</element>
+        <help/>
+        <hint/>
+        <label>Error details</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:31:14</sys_created_on>
+        <sys_id>8975bda247c20210edd8b4b4116d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:31:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-08 20:04:04</sys_created_on>
+        <sys_id>baab326d47420210edd8b4b4116d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 20:04:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_32d9b6a947420210edd8b4b4116d4399"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=32d9b6a947420210edd8b4b4116d4399^sys_idNOT INfd356e3947c24210edd8b4b4116d4316"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Write Script Test Results To HTML">32d9b6a947420210edd8b4b4116d4399</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"fd356e3947c24210edd8b4b4116d4316","name":"plan","plan_signature":null}}</plan>
+        <snapshot>d425718347520210edd8b4b4116d4392</snapshot>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd356e3947c24210edd8b4b4116d4316</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 17:02:30</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>write_script_test_results</internal_name>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_d}}","label":"action➛Test D","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_definition}}","label":"action➛Test Definition","type":"action","ref":"x_1397355_s_speed_test_definition","reference_display":"Test Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.test_resuilts}}","label":"action➛Test Resuilts","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.script_execution_details}}","label":"action➛Script Execution Details","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].success}}","label":"step➛Script step➛Success","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].html}}","label":"step➛Script step➛HTML","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].error_details}}","label":"step➛Script step➛Error Details","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"9adaa320-53c7-4085-9b98-7485a3773ba4"}}]</label_cache>
+        <master>true</master>
+        <name>Write Script Test Results To HTML</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Write Script Test Results To HTML">32d9b6a947420210edd8b4b4116d4399</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a9352e3947c24210edd8b4b4116d4382</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-13 19:07:15</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a9352e3947c24210edd8b4b4116d4382"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a9352e3947c24210edd8b4b4116d4382"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>a9352e3947c24210edd8b4b4116d4382</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:27</sys_created_on>
+        <sys_id>25352e3947c24210edd8b4b4116d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:27</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">65352e3947c24210edd8b4b4116d43c3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>a9352e3947c24210edd8b4b4116d4382</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:38</sys_created_on>
+        <sys_id>2d1575a247c20210edd8b4b4116d4349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:38</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Success">251575a247c20210edd8b4b4116d431f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>a9352e3947c24210edd8b4b4116d4382</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:27</sys_created_on>
+        <sys_id>e5352e3947c24210edd8b4b4116d43d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:38</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">29352e3947c24210edd8b4b4116d43be</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a9352e3947c24210edd8b4b4116d4382"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_details</field>
+        <id>a9352e3947c24210edd8b4b4116d4382</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:31:37</sys_created_on>
+        <sys_id>f68571e247c20210edd8b4b4116d4310</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-13 19:07:15</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</table>
+        <value>{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].error_details}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>string</field>
+        <id>a9352e3947c24210edd8b4b4116d4382</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:38</sys_created_on>
+        <sys_id>651575a247c20210edd8b4b4116d4349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</table>
+        <value>{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].html}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>success</field>
+        <id>a9352e3947c24210edd8b4b4116d4382</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:38</sys_created_on>
+        <sys_id>291575a247c20210edd8b4b4116d4349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</table>
+        <value>{{step[de1ab782-faf3-4444-8a03-377ce0cf92f2].success}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>a9352e3947c24210edd8b4b4116d4382</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:27</sys_created_on>
+        <sys_id>a1352e3947c24210edd8b4b4116d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:27</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>a9352e3947c24210edd8b4b4116d4382</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:27</sys_created_on>
+        <sys_id>ed352e3947c24210edd8b4b4116d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:27</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=a9352e3947c24210edd8b4b4116d4382^sys_idNOT INe1352e3947c24210edd8b4b4116d4392"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Write Script Test Results To HTML">a9352e3947c24210edd8b4b4116d4382</action>
+        <cid>de1ab782-faf3-4444-8a03-377ce0cf92f2</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:26</sys_created_on>
+        <sys_id>e1352e3947c24210edd8b4b4116d4392</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 17:02:28</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e1352e3947c24210edd8b4b4116d4392"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e1352e3947c24210edd8b4b4116d4392</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:27</sys_created_on>
+        <sys_id>2d352e3947c24210edd8b4b4116d43a1</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 17:02:28</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+	try {&#13;
+        var results = JSON.parse(inputs.details);&#13;
+&#13;
+        // Sort the results based on the total execution speed&#13;
+        results.sort((a, b) =&gt; a.total_execution_time_MS - b.total_execution_time_MS);&#13;
+&#13;
+		var ran_by_user = inputs.test_definition.getDisplayValue('last_run_by');&#13;
+&#13;
+        // CSS styling is set in a system property&#13;
+        var style_css = gs.getProperty('x_1397355_s_speed.result.style', '');&#13;
+        var html = style_css + '&lt;container&gt;';&#13;
+&#13;
+        html += '&lt;div id="results_summary"&gt;Test ran by &lt;strong&gt;'+ ran_by_user + '&lt;/strong&gt; at ' + inputs.test_definition.sys_updated_on;&#13;
+        html += '&lt;br&gt;&lt;br&gt;Fastest script is &lt;strong&gt;' + results[0].script_name + '&lt;/strong&gt; with an average execution time of ' + results[0].average_time_MS + ' milliseconds';&#13;
+        html += '&lt;br&gt;Slowest script is &lt;strong&gt;' + results[results.length - 1].script_name + '&lt;/strong&gt; with an average execution time of ' + results[results.length - 1].average_time_MS + ' milliseconds';&#13;
+        html += '&lt;br&gt;&lt;br&gt;Scripts in order from fastest to slowest. Iterations: ' +  results[0].iterations + '. Times are in milliseconds.';&#13;
+		html += '&lt;/div&gt;'&#13;
+        &#13;
+        // Set up a result table and columns&#13;
+        html += '&lt;table id="results_table"&gt;';&#13;
+        html += '&lt;thead&gt;';&#13;
+        html += '&lt;tr&gt;';&#13;
+        html += '&lt;th&gt;Script&lt;/th&gt;';&#13;
+        html += '&lt;th&gt;Script #&lt;/th&gt;';&#13;
+        html += '&lt;th&gt;Average Time&lt;/th&gt;';&#13;
+        html += '&lt;th&gt;Total Execution Time&lt;/th&gt;';&#13;
+        html += '&lt;th&gt;Slower than Fastest, %&lt;/th&gt;';&#13;
+        html += '&lt;th&gt;Execution Times&lt;/th&gt;';&#13;
+        html += '&lt;/tr&gt;';&#13;
+        html += '&lt;/thead&gt;';&#13;
+        html += '&lt;tbody&gt;';&#13;
+&#13;
+        // Print the results to the table&#13;
+        var el = {}, time_diff_to_fastest = 0, fastest_avg = results[0].average_time_MS;&#13;
+        for (i = 0; i &lt; results.length; i++) {&#13;
+            el = results[i];&#13;
+            if (i != 0) {&#13;
+                time_diff_to_fastest = Math.round(((el.average_time_MS - fastest_avg) / fastest_avg) * 100);&#13;
+            };&#13;
+&#13;
+            html += '&lt;tr&gt;';&#13;
+            html += '&lt;td&gt;' + el.script_name + '&lt;/td&gt;';&#13;
+            html += '&lt;td&gt;' + el.script_field_name.substring(el.script_field_name.length - 1, el.script_field_name.length) + '&lt;/td&gt;';&#13;
+            html += '&lt;td&gt;' + el.average_time_MS + '&lt;/td&gt;';&#13;
+            html += '&lt;td&gt;' + el.total_execution_time_MS + '&lt;/td&gt;';&#13;
+            html += '&lt;td&gt;' + time_diff_to_fastest + '&lt;/td&gt;';&#13;
+            html += '&lt;td&gt;' + el.execution_time_per_iteration.join(', ') + '&lt;/td&gt;';&#13;
+            html += '&lt;/tr&gt;';&#13;
+        }&#13;
+&#13;
+        html += '&lt;/tbody&gt;';&#13;
+        html += '&lt;/table&gt;';&#13;
+&#13;
+        // Include the scripts that were used&#13;
+        html += '&lt;br&gt;&lt;br&gt;&lt;div id="scripts"&gt;Scripts used:';&#13;
+        for (i = 1; i &lt;= results.length; i++) {&#13;
+            var def_gr = inputs.test_definition;&#13;
+			html += '&lt;pre class="script"&gt;';&#13;
+			html += '&lt;span class="script_name"&gt;' + results[i - 1].script_name + '&lt;/span&gt;&lt;br&gt;';&#13;
+			html += escapeHtmlCharacters(def_gr.getValue(results[i - 1].script_field_name)); // Escape the JS characters so it won't mess up the HTML&#13;
+			html += '&lt;/pre&gt;&lt;br&gt;';&#13;
+        }&#13;
+&#13;
+        html += '&lt;/div&gt;';&#13;
+        html += '&lt;/container&gt;';&#13;
+&#13;
+        outputs.html = html;&#13;
+		outputs.success = true;&#13;
+    } catch (ex) {&#13;
+		gs.error('Error in Flow Action "Write Script Test Results":\n' + ex)&#13;
+		outputs.error_details = ex.message;&#13;
+		outputs.success = false;&#13;
+	}&#13;
+})(inputs, outputs);&#13;
+&#13;
+function escapeHtmlCharacters(script) {&#13;
+    return script.replace(/[&amp;&lt;&gt;"'`=\/]/g, function(char) {&#13;
+        return {&#13;
+            '&amp;': '&amp;amp;',&#13;
+            '&lt;': '&amp;lt;',&#13;
+            '&gt;': '&amp;gt;',&#13;
+            '"': '&amp;quot;',&#13;
+            "'": '&amp;#39;',&#13;
+            '`': '&amp;#x60;',&#13;
+            '=': '&amp;#x3D;',&#13;
+            '/': '&amp;#x2F;'&#13;
+        }[char];&#13;
+    });&#13;
+}</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e1352e3947c24210edd8b4b4116d4392</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:27</sys_created_on>
+        <sys_id>69352e3947c24210edd8b4b4116d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:27</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e1352e3947c24210edd8b4b4116d4392"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>e1352e3947c24210edd8b4b4116d4392</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:27</sys_created_on>
+        <sys_id>25352e3947c24210edd8b4b4116d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:27</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>details</field>
+        <id>e1352e3947c24210edd8b4b4116d4392</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:27</sys_created_on>
+        <sys_id>e5352e3947c24210edd8b4b4116d43a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:27</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e1352e3947c24210edd8b4b4116d4392</table>
+        <value>{{action.script_execution_details}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>e1352e3947c24210edd8b4b4116d4392</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:27</sys_created_on>
+        <sys_id>e5352e3947c24210edd8b4b4116d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:27</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>test_definition</field>
+        <id>e1352e3947c24210edd8b4b4116d4392</id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:27</sys_created_on>
+        <sys_id>a9352e3947c24210edd8b4b4116d43a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:27</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e1352e3947c24210edd8b4b4116d4392</table>
+        <value>{{action.test_definition}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_e1352e3947c24210edd8b4b4116d4392^id=e1352e3947c24210edd8b4b4116d4392"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=e1352e3947c24210edd8b4b4116d4392"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=e1352e3947c24210edd8b4b4116d4392"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e1352e3947c24210edd8b4b4116d4392^sys_idNOT IN6d352e3947c24210edd8b4b4116d4395,a1352e3947c24210edd8b4b4116d439a"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>test_definition</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>test_definition</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">e1352e3947c24210edd8b4b4116d4392</model>
+        <model_id>e1352e3947c24210edd8b4b4116d4392</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_e1352e3947c24210edd8b4b4116d4392</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1397355_s_speed_test_definition">x_1397355_s_speed_test_definition</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:26</sys_created_on>
+        <sys_id>6d352e3947c24210edd8b4b4116d4395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>details</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>details</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e1352e3947c24210edd8b4b4116d4392</model>
+        <model_id>e1352e3947c24210edd8b4b4116d4392</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_e1352e3947c24210edd8b4b4116d4392</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:26</sys_created_on>
+        <sys_id>a1352e3947c24210edd8b4b4116d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e1352e3947c24210edd8b4b4116d4392^sys_idNOT IN291575a247c20210edd8b4b4116d4315,439e50d347c6c210edd8b4b4116d4364,691575a247c20210edd8b4b4116d4311"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e94dec08-9cc0-47e1-8ab4-ef431eae714e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>html</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>HTML</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e1352e3947c24210edd8b4b4116d4392</model>
+        <model_id>e1352e3947c24210edd8b4b4116d4392</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e1352e3947c24210edd8b4b4116d4392</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:37</sys_created_on>
+        <sys_id>291575a247c20210edd8b4b4116d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9adaa320-53c7-4085-9b98-7485a3773ba4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error_details</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error Details</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e1352e3947c24210edd8b4b4116d4392</model>
+        <model_id>e1352e3947c24210edd8b4b4116d4392</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e1352e3947c24210edd8b4b4116d4392</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-13 19:07:15</sys_created_on>
+        <sys_id>439e50d347c6c210edd8b4b4116d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-13 19:07:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=53263d17-2879-4d6b-9d82-33328c5077ce</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>success</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Success</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">e1352e3947c24210edd8b4b4116d4392</model>
+        <model_id>e1352e3947c24210edd8b4b4116d4392</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e1352e3947c24210edd8b4b4116d4392</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:37</sys_created_on>
+        <sys_id>691575a247c20210edd8b4b4116d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e1352e3947c24210edd8b4b4116d4392"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e1352e3947c24210edd8b4b4116d4392^sys_idNOT IN439e50d347c6c210edd8b4b4116d4367,691575a247c20210edd8b4b4116d4314,ed1575a247c20210edd8b4b4116d4317"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error_details</element>
+        <help/>
+        <hint/>
+        <label>Error Details</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_e1352e3947c24210edd8b4b4116d4392</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-13 19:07:15</sys_created_on>
+        <sys_id>439e50d347c6c210edd8b4b4116d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-13 19:07:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>success</element>
+        <help/>
+        <hint/>
+        <label>Success</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_e1352e3947c24210edd8b4b4116d4392</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:37</sys_created_on>
+        <sys_id>691575a247c20210edd8b4b4116d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>html</element>
+        <help/>
+        <hint/>
+        <label>HTML</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_e1352e3947c24210edd8b4b4116d4392</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:37</sys_created_on>
+        <sys_id>ed1575a247c20210edd8b4b4116d4317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=a9352e3947c24210edd8b4b4116d4382^sys_idNOT INad352e3947c24210edd8b4b4116d438c,ed352e3947c24210edd8b4b4116d4386"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4697fdb6-34e0-4298-b2a7-e8c6751de302</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>script_execution_details</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Script Execution Details</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Write Script Test Results To HTML">a9352e3947c24210edd8b4b4116d4382</model>
+        <model_id>a9352e3947c24210edd8b4b4116d4382</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_a9352e3947c24210edd8b4b4116d4382</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:26</sys_created_on>
+        <sys_id>ad352e3947c24210edd8b4b4116d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ad352e3947c24210edd8b4b4116d438c"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=928e7a3e-abdb-4a42-a437-e540a39b14cf</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1397355_s_speed_test_definition</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>test_definition</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Test Definition</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Write Script Test Results To HTML">a9352e3947c24210edd8b4b4116d4382</model>
+        <model_id>a9352e3947c24210edd8b4b4116d4382</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_a9352e3947c24210edd8b4b4116d4382</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1397355_s_speed_test_definition">x_1397355_s_speed_test_definition</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:26</sys_created_on>
+        <sys_id>ed352e3947c24210edd8b4b4116d4386</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ed352e3947c24210edd8b4b4116d4386"/>
+    <sys_hub_action_output action="delete_multiple" query="model=a9352e3947c24210edd8b4b4116d4382^sys_idNOT IN251575a247c20210edd8b4b4116d431f,29352e3947c24210edd8b4b4116d43be,65352e3947c24210edd8b4b4116d43c3,a91575a247c20210edd8b4b4116d4332,e28571e247c20210edd8b4b4116d430a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=31f439aa-56e2-4879-a49f-2293e24c92be</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>success</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Success</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Write Script Test Results To HTML">a9352e3947c24210edd8b4b4116d4382</model>
+        <model_id>a9352e3947c24210edd8b4b4116d4382</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:38</sys_created_on>
+        <sys_id>251575a247c20210edd8b4b4116d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=251575a247c20210edd8b4b4116d431f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=251575a247c20210edd8b4b4116d431f"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=6ff2cdf8-b755-485f-b8c3-fc5f49e1e351</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Write Script Test Results To HTML">a9352e3947c24210edd8b4b4116d4382</model>
+        <model_id>a9352e3947c24210edd8b4b4116d4382</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:27</sys_created_on>
+        <sys_id>29352e3947c24210edd8b4b4116d43be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=29352e3947c24210edd8b4b4116d43be"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=29352e3947c24210edd8b4b4116d43be"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f275151a-3542-4cd6-98b8-9b60d83ec3a6,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Write Script Test Results To HTML">a9352e3947c24210edd8b4b4116d4382</model>
+        <model_id>a9352e3947c24210edd8b4b4116d4382</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:27</sys_created_on>
+        <sys_id>65352e3947c24210edd8b4b4116d43c3</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 17:02:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=65352e3947c24210edd8b4b4116d43c3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=65352e3947c24210edd8b4b4116d43c3"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=25597e42-0cde-449c-bd88-ef095ccc3ac5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>string</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>HTML</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Write Script Test Results To HTML">a9352e3947c24210edd8b4b4116d4382</model>
+        <model_id>a9352e3947c24210edd8b4b4116d4382</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:38</sys_created_on>
+        <sys_id>a91575a247c20210edd8b4b4116d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a91575a247c20210edd8b4b4116d4332"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a91575a247c20210edd8b4b4116d4332"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=b8396bd7-855b-4aeb-b827-a9cedbe8e562</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error_details</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error details</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Write Script Test Results To HTML">a9352e3947c24210edd8b4b4116d4382</model>
+        <model_id>a9352e3947c24210edd8b4b4116d4382</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:31:37</sys_created_on>
+        <sys_id>e28571e247c20210edd8b4b4116d430a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:31:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e28571e247c20210edd8b4b4116d430a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e28571e247c20210edd8b4b4116d430a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a9352e3947c24210edd8b4b4116d4382"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=a9352e3947c24210edd8b4b4116d4382^sys_idNOT INa5352e3947c24210edd8b4b4116d43d9"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Write Script Test Results To HTML">a9352e3947c24210edd8b4b4116d4382</action_type_id>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:27</sys_created_on>
+        <sys_id>a5352e3947c24210edd8b4b4116d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:27</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a5352e3947c24210edd8b4b4116d43d9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a9352e3947c24210edd8b4b4116d4382^sys_idNOT IN2d352e3947c24210edd8b4b4116d438f,ad352e3947c24210edd8b4b4116d438b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>script_execution_details</element>
+        <help/>
+        <hint/>
+        <label>Script Execution Details</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a9352e3947c24210edd8b4b4116d4382</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:26</sys_created_on>
+        <sys_id>2d352e3947c24210edd8b4b4116d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>test_definition</element>
+        <help/>
+        <hint/>
+        <label>Test Definition</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a9352e3947c24210edd8b4b4116d4382</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:26</sys_created_on>
+        <sys_id>ad352e3947c24210edd8b4b4116d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_a9352e3947c24210edd8b4b4116d4382"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382^sys_idNOT IN21352e3947c24210edd8b4b4116d43c8,291575a247c20210edd8b4b4116d4335,65352e3947c24210edd8b4b4116d43c2,728571e247c20210edd8b4b4116d430d,a11575a247c20210edd8b4b4116d432f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:27</sys_created_on>
+        <sys_id>21352e3947c24210edd8b4b4116d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>string</element>
+        <help/>
+        <hint/>
+        <label>HTML</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:38</sys_created_on>
+        <sys_id>291575a247c20210edd8b4b4116d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:04:27</sys_created_on>
+        <sys_id>65352e3947c24210edd8b4b4116d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:04:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error_details</element>
+        <help/>
+        <hint/>
+        <label>Error details</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:31:37</sys_created_on>
+        <sys_id>728571e247c20210edd8b4b4116d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:31:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>success</element>
+        <help/>
+        <hint/>
+        <label>Success</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-11 17:29:38</sys_created_on>
+        <sys_id>a11575a247c20210edd8b4b4116d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 17:29:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_a9352e3947c24210edd8b4b4116d4382"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>32d9b6a947420210edd8b4b4116d4399</sys_id>
+        <latest_snapshot>a9352e3947c24210edd8b4b4116d4382</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch1-02-28-2024_03-09-2024_0815.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1397355_s_speed_test_definition</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1397355_s_speed_test_definition">stateCHANGESFROM200^stateCHANGESTO300^EQ<item display_value="Running" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="200"/>
+            <item display_value="Error" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="300"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p><span style="font-family: courier new, courier;"><span style="font-size: 13.3333px;">Running the tests failed. Please check the scripts.</span></span></p>]]></message>
+        <name>Message - error</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-25 17:34:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae8cfd4f47520210edd8b4b4116d43cb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Message - error</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name>sys_script_ae8cfd4f47520210edd8b4b4116d43cb</sys_update_name>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 17:39:41</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=ae8cfd4f47520210edd8b4b4116d43cb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</application>
+        <file_path/>
+        <instance_id>9d472d3e1bda3d14c8432f8dee4bcb7a</instance_id>
+        <instance_name>dev207854</instance_name>
+        <name>sys_script_ae8cfd4f47520210edd8b4b4116d43cb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;true&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1397355_s_speed_test_definition&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_1397355_s_speed_test_definition"&gt;stateCHANGESFROM200^stateCHANGESTO300^EQ&lt;item display_value="Running" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="200"/&gt;&lt;item display_value="Error" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="300"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="font-family: courier new, courier;"&gt;&lt;span style="font-size: 13.3333px;"&gt;Running the tests failed. Please check the scripts.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/message&gt;&lt;name&gt;Message - error&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nik-admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-25 17:34:51&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ae8cfd4f47520210edd8b4b4116d43cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Message - error&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Script Speed Tester" source="x_1397355_s_speed"&gt;9e1b559e47310210edd8b4b4116d4307&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Script Speed Tester"&gt;9e1b559e47310210edd8b4b4116d4307&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_ae8cfd4f47520210edd8b4b4116d43cb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nik-admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-25 17:39:41&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ae8cfd4f47520210edd8b4b4116d43cb"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-45740654</payload_hash>
+        <record_name>Message - error</record_name>
+        <reverted_from/>
+        <source>d9d2e51a47710210edd8b4b4116d432a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-25 17:39:41</sys_created_on>
+        <sys_id>55ad3d0347920210edd8b4b4116d4395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fb0d63c030000001</sys_recorded_at>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 17:39:41</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>59ad3d030d9202102db5fadbbe13d894</update_guid>
+        <update_guid_history>59ad3d030d9202102db5fadbbe13d894:-45740654,a68cfd4fa5520210753f61141d8526ce:-1025367143</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-25 18:12:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>26df3e4e89a143f2ac4b1d7fe3636c69</sys_id>
+        <sys_metadata>ae8cfd4f47520210edd8b4b4116d43cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Message - error</sys_name>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_parent display_value="Test Definition">069b9d9e47310210edd8b4b4116d437a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_scope_delete display_value="">0de6e265512445da835504ec8de03724</sys_scope_delete>
+        <sys_update_name>sys_script_ae8cfd4f47520210edd8b4b4116d43cb</sys_update_name>
+        <sys_update_version display_value="sys_script_ae8cfd4f47520210edd8b4b4116d43cb">55ad3d0347920210edd8b4b4116d4395</sys_update_version>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 18:12:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

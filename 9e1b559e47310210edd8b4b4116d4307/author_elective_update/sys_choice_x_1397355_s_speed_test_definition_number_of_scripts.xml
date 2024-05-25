@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="number_of_scripts" table="x_1397355_s_speed_test_definition" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>number_of_scripts</element>
+            <name>x_1397355_s_speed_test_definition</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nat-admin</sys_created_by>
+            <sys_created_on>2024-04-28 11:44:43</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>number_of_scripts</sys_name>
+            <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+            <sys_update_name>sys_choice_x_1397355_s_speed_test_definition_number_of_scripts</sys_update_name>
+            <sys_updated_by>nat-admin</sys_updated_by>
+            <sys_updated_on>2024-04-28 11:44:43</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>number_of_scripts</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1</label>
+            <language>en</language>
+            <name>x_1397355_s_speed_test_definition</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>nat-admin</sys_created_by>
+            <sys_created_on>2024-04-28 11:44:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nik-admin</sys_updated_by>
+            <sys_updated_on>2024-04-28 12:10:50</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>number_of_scripts</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2</label>
+            <language>en</language>
+            <name>x_1397355_s_speed_test_definition</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>nat-admin</sys_created_by>
+            <sys_created_on>2024-04-28 11:44:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nik-admin</sys_updated_by>
+            <sys_updated_on>2024-04-28 12:10:52</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>number_of_scripts</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3</label>
+            <language>en</language>
+            <name>x_1397355_s_speed_test_definition</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>nat-admin</sys_created_by>
+            <sys_created_on>2024-04-28 11:44:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nik-admin</sys_updated_by>
+            <sys_updated_on>2024-04-28 12:10:57</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>number_of_scripts</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4</label>
+            <language>en</language>
+            <name>x_1397355_s_speed_test_definition</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>nat-admin</sys_created_by>
+            <sys_created_on>2024-04-28 11:45:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nik-admin</sys_updated_by>
+            <sys_updated_on>2024-04-28 12:10:58</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>number_of_scripts</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5</label>
+            <language>en</language>
+            <name>x_1397355_s_speed_test_definition</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>nat-admin</sys_created_by>
+            <sys_created_on>2024-04-28 11:45:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nik-admin</sys_updated_by>
+            <sys_updated_on>2024-04-28 12:11:00</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>number_of_scripts</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6</label>
+            <language>en</language>
+            <name>x_1397355_s_speed_test_definition</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>nik-admin</sys_created_by>
+            <sys_created_on>2024-05-09 13:01:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nik-admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 13:01:45</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>number_of_scripts</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>7</label>
+            <language>en</language>
+            <name>x_1397355_s_speed_test_definition</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>nik-admin</sys_created_by>
+            <sys_created_on>2024-05-09 13:01:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nik-admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 13:01:49</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>number_of_scripts</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8</label>
+            <language>en</language>
+            <name>x_1397355_s_speed_test_definition</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>nik-admin</sys_created_by>
+            <sys_created_on>2024-05-09 13:01:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nik-admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 13:01:55</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>number_of_scripts</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>9</label>
+            <language>en</language>
+            <name>x_1397355_s_speed_test_definition</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>nik-admin</sys_created_by>
+            <sys_created_on>2024-05-09 13:01:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nik-admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 13:01:59</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

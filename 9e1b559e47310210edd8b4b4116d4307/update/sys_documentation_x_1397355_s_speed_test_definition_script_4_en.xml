@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="script_4" label="Script 4" language="en" table="x_1397355_s_speed_test_definition">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>script_4</element>
+            <help/>
+            <hint/>
+            <label>Script 4</label>
+            <language>en</language>
+            <name>x_1397355_s_speed_test_definition</name>
+            <plural>Script 4s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nik-admin</sys_created_by>
+            <sys_created_on>2024-04-28 11:42:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Script 4</sys_name>
+            <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+            <sys_update_name>sys_documentation_x_1397355_s_speed_test_definition_script_4_en</sys_update_name>
+            <sys_updated_by>nik-admin</sys_updated_by>
+            <sys_updated_on>2024-04-28 11:42:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>CSS used to style the "Result" HTML in "x_1397355_s_speed_test_result" records</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1397355_s_speed.result.style</name>
+        <read_roles/>
+        <suffix>result.style</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-12 18:27:17</sys_created_on>
+        <sys_id>c7ab4f76474e4210edd8b4b4116d4323</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_1397355_s_speed.result.style</sys_name>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name>sys_properties_c7ab4f76474e4210edd8b4b4116d4323</sys_update_name>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-12 19:28:51</sys_updated_on>
+        <type>string</type>
+        <value>&lt;style&gt;&#13;
+    container {&#13;
+        text-align: left; /* Align all content left */&#13;
+    }&#13;
+&#13;
+    #results_table {&#13;
+        padding: 10px; /* Add padding to the table */&#13;
+        border-collapse: collapse; /* Collapse borders to ensure continuous lines */&#13;
+        margin: 0; /* Align the table to the left */&#13;
+        width: auto; /* Make the table width adjust to content */&#13;
+    }&#13;
+&#13;
+    #results_table th {&#13;
+        background-color: lightgrey; /* Light grey background for column headers */&#13;
+        font-weight: bold; /* Bold font weight for column headers */&#13;
+    }&#13;
+&#13;
+    #results_table th,&#13;
+    #results_table td {&#13;
+        border: 1px solid black; /* Add border with continuous black lines */&#13;
+        padding: 8px; /* Add padding to table cells */&#13;
+    }&#13;
+&#13;
+    .script {&#13;
+        background-color: #f4f4f4; /* Light grey background for code blocks */&#13;
+        padding: 10px; /* Add padding to code blocks */&#13;
+        border: 1px solid #ddd; /* Add border */&#13;
+        white-space: pre-wrap; /* Preserve white spaces and wrap lines */&#13;
+        overflow-x: auto; /* Enable horizontal scroll if needed */&#13;
+    }&#13;
+&#13;
+    .script_name {&#13;
+        font-weight: bold; /* Bold font weight for script names */&#13;
+    }&#13;
+&lt;/style&gt;</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=c7ab4f76474e4210edd8b4b4116d4323"/>
+</record_update>

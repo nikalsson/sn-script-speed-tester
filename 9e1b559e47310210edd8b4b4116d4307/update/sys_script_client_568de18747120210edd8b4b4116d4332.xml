@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>state</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>State change messages</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    g_form.clearMessages();
+
+    var state = g_form.getValue('state');
+
+    if (state == '100') {
+        var link = '<a href="x_1397355_s_speed_test_result.do?sys_id=' + g_form.getValue('last_test_result') + '">HERE</a>';
+        g_form.addInfoMessage('The test is complete, check the results ' + link);
+    } else if (state == '300') {
+        g_form.addErrorMessage('The test failed. Please check the scripts.');
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>nat-admin</sys_created_by>
+        <sys_created_on>2024-05-25 16:34:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>568de18747120210edd8b4b4116d4332</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>State change messages</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name>sys_script_client_568de18747120210edd8b4b4116d4332</sys_update_name>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 18:23:16</sys_updated_on>
+        <table>x_1397355_s_speed_test_definition</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

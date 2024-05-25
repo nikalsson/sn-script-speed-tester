@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4f7de90747120210edd8b4b4116d433c</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_1397355_s_speed_test_definition"&gt;
+    &lt;x_1397355_s_speed_test_definition action="INSERT_OR_UPDATE"&gt;
+        &lt;description&gt;Compare speeds when doing GR queries in loop or separately. &lt;/description&gt;
+        &lt;error/&gt;
+        &lt;iterations&gt;50&lt;/iterations&gt;
+        &lt;last_run_by/&gt;
+        &lt;last_succesful_run/&gt;
+        &lt;last_test_result/&gt;
+        &lt;name&gt;Demo: GR speed comparison&lt;/name&gt;
+        &lt;number_of_scripts&gt;3&lt;/number_of_scripts&gt;
+        &lt;script_1&gt;&lt;![CDATA[success = (function() {
+    try {
+        // Write your script between START and END, do not change anything else
+        // START
+        var users_who_are_not_callers = [];
+
+        // Query all users
+        var user_gr = new GlideRecord('sys_user');
+        user_gr.query();
+        while (user_gr.next()) {
+            // For each user check if they've opened an incident
+            var caller_incident_gr = new GlideRecord('incident');
+            caller_incident_gr.addNotNullQuery('caller_id');
+            caller_incident_gr.addQuery('caller_id', user_gr.getUniqueValue());
+            caller_incident_gr.setLimit(1);
+            caller_incident_gr.query();
+            if (!caller_incident_gr.hasNext()) {
+                users_who_are_not_callers.push(user_gr.getUniqueValue());
+            }
+        }
+
+		gs.info('[GR in nested loop] users_who_are_not_callers amount: ' + users_who_are_not_callers.length);
+
+        // END
+        return true;
+    } catch (ex) {
+        return false;
+    }
+})();]]&gt;&lt;/script_1&gt;
+        &lt;script_2&gt;&lt;![CDATA[success = (function() {
+    try {
+        // Write your script between START and END, do not change anything else
+        // START
+
+		// Collect the users and callers of incidents in separate GRs
+        var users_who_are_not_callers = [];
+        var users = {};
+        var callers = {};
+
+        var user_gr = new GlideRecord('sys_user');
+        user_gr.query();
+        while (user_gr.next()) {
+            users[user_gr.getUniqueValue()] = true;
+        }
+
+        var caller_incident_gr = new GlideRecord('incident');
+        caller_incident_gr.addNotNullQuery('caller_id');
+        caller_incident_gr.query();
+        while (caller_incident_gr.next()) {
+            callers[caller_incident_gr.getValue('caller_id')] = true;
+        }
+
+        // Loop through the users and check against the incidents
+        for (user in users) {
+            if (!callers.hasOwnProperty(user)) {
+                users_who_are_not_callers.push(user);
+            }
+        }
+
+        gs.info('[GR not in loop] users_who_are_not_callers amount: ' + users_who_are_not_callers.length);
+
+        // END
+        return true;
+    } catch (ex) {
+        return false;
+    }
+})();]]&gt;&lt;/script_2&gt;
+        &lt;script_3&gt;&lt;![CDATA[success = (function() {
+    try {
+        // Write your script between START and END, do not change anything else
+        // START
+
+        var users_who_are_not_callers = [];
+        var callers = [];
+
+		// Get all users, who are callers on incidents
+        var caller_incident_gr = new GlideRecord('incident');
+        caller_incident_gr.addNotNullQuery('caller_id');
+        caller_incident_gr.query();
+        while (caller_incident_gr.next()) {
+            callers.push(caller_incident_gr.getValue('caller_id'));
+        }
+
+		// Then get all the rest of the users
+        var user_gr = new GlideRecord('sys_user');
+		user_gr.addQuery('sys_id', 'NOT IN', callers)
+        user_gr.query();
+        while (user_gr.next()) {
+            users_who_are_not_callers.push(user_gr.getUniqueValue());
+        }
+
+        gs.info('[GR not in loop, better query] users_who_are_not_callers amount: ' + users_who_are_not_callers.length);
+
+        // END
+        return true;
+    } catch (ex) {
+        return false;
+    }
+})();]]&gt;&lt;/script_3&gt;
+        &lt;script_4&gt;&lt;![CDATA[success = (function () {
+	try {
+		// Write your script between START and END, do not change anything else
+		// START
+
+
+
+		// END
+		return true;
+	} catch (ex) {
+		return false;
+	}
+})();]]&gt;&lt;/script_4&gt;
+        &lt;script_5&gt;&lt;![CDATA[success = (function () {
+	try {
+		// Write your script between START and END, do not change anything else
+		// START
+
+
+
+		// END
+		return true;
+	} catch (ex) {
+		return false;
+	}
+})();]]&gt;&lt;/script_5&gt;
+        &lt;script_6&gt;&lt;![CDATA[success = (function () {
+	try {
+		// Write your script between START and END, do not change anything else
+		// START
+
+
+
+		// END
+		return true;
+	} catch (ex) {
+		return false;
+	}
+})();]]&gt;&lt;/script_6&gt;
+        &lt;script_7&gt;&lt;![CDATA[success = (function () {
+	try {
+		// Write your script between START and END, do not change anything else
+		// START
+
+
+
+		// END
+		return true;
+	} catch (ex) {
+		return false;
+	}
+})();]]&gt;&lt;/script_7&gt;
+        &lt;script_8&gt;&lt;![CDATA[success = (function () {
+	try {
+		// Write your script between START and END, do not change anything else
+		// START
+
+
+
+		// END
+		return true;
+	} catch (ex) {
+		return false;
+	}
+})();]]&gt;&lt;/script_8&gt;
+        &lt;script_9&gt;&lt;![CDATA[success = (function () {
+	try {
+		// Write your script between START and END, do not change anything else
+		// START
+
+
+
+		// END
+		return true;
+	} catch (ex) {
+		return false;
+	}
+})();]]&gt;&lt;/script_9&gt;
+        &lt;script_name_1&gt;GR in nested loop&lt;/script_name_1&gt;
+        &lt;script_name_2&gt;GR not in loop, simple query&lt;/script_name_2&gt;
+        &lt;script_name_3&gt;GR not in loop, better query&lt;/script_name_3&gt;
+        &lt;script_name_4/&gt;
+        &lt;script_name_5/&gt;
+        &lt;script_name_6/&gt;
+        &lt;script_name_7/&gt;
+        &lt;script_name_8/&gt;
+        &lt;script_name_9/&gt;
+        &lt;state&gt;100&lt;/state&gt;
+        &lt;sys_created_by&gt;nik-admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-05-25 16:45:30&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;4f7de90747120210edd8b4b4116d433c&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;nik-admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-05-25 17:11:35&lt;/sys_updated_on&gt;
+    &lt;/x_1397355_s_speed_test_definition&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-25 17:12:00</sys_created_on>
+        <sys_id>b347b58747520210edd8b4b4116d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo: GR speed comparison</sys_name>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name>sys_metadata_link_b347b58747520210edd8b4b4116d4308</sys_update_name>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 17:12:00</sys_updated_on>
+        <tablename>x_1397355_s_speed_test_definition</tablename>
+    </sys_metadata_link>
+</record_update>

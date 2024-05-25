@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="069b9d9e47310210edd8b4b4116d437a" label="Test Definition" max_length="40" name="x_1397355_s_speed_test_definition" type="collection">
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Error" max_length="100000" name="error" read_only="true" type="string"/>
+        <element default="25" label="Iterations" mandatory="true" max_length="4" name="iterations" type="string"/>
+        <element attributes="readonly_clickthrough=true" label="Last run by" max_length="32" name="last_run_by" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Last successful run" max_length="40" name="last_succesful_run" read_only="true" type="glide_date_time"/>
+        <element attributes="encode_utf8=false,readonly_clickthrough=true" label="Last test result" max_length="32" name="last_test_result" read_only="true" reference="x_1397355_s_speed_test_result" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="255" name="name" type="string"/>
+        <element choice="3" default="2" label="Number of scripts" max_length="40" name="number_of_scripts" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="7" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="9" sequence="9" value="9"/>
+            </choice>
+        </element>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 1" max_length="16777215" name="script_1" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 2" max_length="16777215" name="script_2" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 3" max_length="16777215" name="script_3" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 4" max_length="16777215" name="script_4" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 5" max_length="16777215" name="script_5" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 6" max_length="16777215" name="script_6" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 7" max_length="16777215" name="script_7" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 8" max_length="16777215" name="script_8" type="script"/>
+        <element default="success = (function () {&#13;&#10;&#9;try {&#13;&#10;&#9;&#9;// Write your script between START and END, do not change anything else&#13;&#10;&#9;&#9;// START&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;// END&#13;&#10;&#9;&#9;return true;&#13;&#10;&#9;} catch (ex) {&#13;&#10;&#9;&#9;return false;&#13;&#10;&#9;}&#13;&#10;})();" label="Script 9" max_length="16777215" name="script_9" type="script"/>
+        <element label="Script name 1" max_length="80" name="script_name_1" type="string"/>
+        <element label="Script name 2" max_length="80" name="script_name_2" type="string"/>
+        <element label="Script name 3" max_length="80" name="script_name_3" type="string"/>
+        <element label="Script name 4" max_length="80" name="script_name_4" type="string"/>
+        <element label="Script name 5" max_length="80" name="script_name_5" type="string"/>
+        <element label="Script name 6" max_length="80" name="script_name_6" type="string"/>
+        <element label="Script name 7" max_length="80" name="script_name_7" type="string"/>
+        <element label="Script name 8" max_length="80" name="script_name_8" type="string"/>
+        <element label="Script name 9" max_length="80" name="script_name_9" type="string"/>
+        <element choice="3" default="100" label="State" max_length="40" name="state" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ready" sequence="100" value="100"/>
+                <element inactive_on_update="false" label="Running" sequence="200" value="200"/>
+                <element inactive_on_update="false" label="Error" sequence="300" value="300"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="last_run_by"/>
+        </index>
+        <index name="index2">
+            <element name="last_test_result"/>
+        </index>
+    </element>
+</database>

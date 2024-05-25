@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="iterations" label="Iterations" language="en" table="x_1397355_s_speed_test_definition">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>iterations</element>
+            <help/>
+            <hint/>
+            <label>Iterations</label>
+            <language>en</language>
+            <name>x_1397355_s_speed_test_definition</name>
+            <plural>Iterations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nat-admin</sys_created_by>
+            <sys_created_on>2024-05-09 14:10:10</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Iterations</sys_name>
+            <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+            <sys_update_name>sys_documentation_x_1397355_s_speed_test_definition_iterations_en</sys_update_name>
+            <sys_updated_by>nat-admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 14:10:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
