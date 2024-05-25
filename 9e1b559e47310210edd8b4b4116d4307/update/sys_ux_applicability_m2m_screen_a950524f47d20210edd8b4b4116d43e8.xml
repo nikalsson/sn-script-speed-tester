@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Speed Test users">fb4f8a0f47d20210edd8b4b4116d43ce</applicability>
+        <order>0</order>
+        <screen display_value="Test">d0e8390b47520210edd8b4b4116d43db</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>nat-admin</sys_created_by>
+        <sys_created_on>2024-05-25 19:01:20</sys_created_on>
+        <sys_id>a950524f47d20210edd8b4b4116d43e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_a950524f47d20210edd8b4b4116d43e8</sys_update_name>
+        <sys_updated_by>nat-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 19:01:20</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ec67cb9647790210edd8b4b4116d43ee</sys_id>
-        <sys_mod_count>61</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_name>Execute Scripts</sys_name>
         <sys_overrides/>
         <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_ec67cb9647790210edd8b4b4116d43ee</sys_update_name>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 19:06:24</sys_updated_on>
+        <sys_updated_on>2024-05-25 18:32:44</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -163,7 +163,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Execute Scripts">ec67cb9647790210edd8b4b4116d43ee</action>
         <cid>583d5d8d-2ab0-4e3b-9b18-355a27307991</cid>
-        <error_handling_type>1</error_handling_type>
+        <error_handling_type>2</error_handling_type>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -177,10 +177,10 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-04-28 20:09:51</sys_created_on>
         <sys_id>4a1d17d647f90210edd8b4b4116d43db</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 19:06:19</sys_updated_on>
+        <sys_updated_on>2024-05-25 18:32:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4a1d17d647f90210edd8b4b4116d43db"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -205,21 +205,21 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-04-28 20:09:52</sys_created_on>
         <sys_id>c61d57d647f90210edd8b4b4116d4301</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 19:06:19</sys_updated_on>
+        <sys_updated_on>2024-05-25 18:32:16</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 	try {&#13;
 		var number_of_scripts = parseInt(inputs.test_definition.getValue('number_of_scripts'), 10);&#13;
 		if (gs.nil(number_of_scripts)) {&#13;
-			throw 'Missing "number_of_scripts", cannot continue';&#13;
+			throw Error('Missing "number_of_scripts", cannot continue');&#13;
 		}&#13;
 &#13;
 		// Default to 10 iterations if missing from the definition&#13;
 		var iterations = parseInt(inputs.test_definition.getValue('iterations'), 10) || 10;&#13;
 &#13;
 		// Initialize variables and GlideScopedEvaluator&#13;
-		scripts = [], script_name = '', i = 0, glide_evaluator = new GlideScopedEvaluator();&#13;
+		var scripts = [], script_name = '', i = 0, glide_evaluator = new GlideScopedEvaluator();&#13;
 &#13;
 		// Loop through the selected number of scripts and also check if script is defined, start count from 1 because fields are named from _1&#13;
 		for (i = 1; i &lt;= number_of_scripts; i++) {&#13;
@@ -228,7 +228,7 @@
 &#13;
 			// Check if the script field is empty&#13;
 			if (gs.nil(inputs.test_definition.getValue('script_' + i))) {&#13;
-				throw 'Missing "script_' + i + '", cannot continue';&#13;
+				throw Error('Missing "script_' + i + '", cannot continue');&#13;
 			}&#13;
 &#13;
 			// Construct the script execution objects&#13;
@@ -246,7 +246,7 @@
 				});&#13;
 &#13;
 				if (!glide_evaluator.getVariable('success')) {&#13;
-					throw 'Failed to execute script "' + script.script_name + '", check your script and retry'&#13;
+					throw Error('Failed to execute script "' + script.script_name + '", check your script and retry');&#13;
 				}&#13;
 &#13;
 				script.timer_end_time = new Date(); // End time of script execution&#13;
@@ -868,14 +868,14 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-04-28 20:09:52</sys_created_on>
         <sys_id>461d57d647f90210edd8b4b4116d430e</sys_id>
-        <sys_mod_count>55</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read_only</sys_policy>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 19:06:22</sys_updated_on>
+        <sys_updated_on>2024-05-25 18:32:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1396,17 +1396,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Execute Scripts">ec67cb9647790210edd8b4b4116d43ee</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"604eee6947020210edd8b4b4116d43ab","name":"plan","plan_signature":null}}</plan>
-        <snapshot>666ed89347c6c210edd8b4b4116d4318</snapshot>
+        <snapshot>a2c9ca8347d20210edd8b4b4116d43e5</snapshot>
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 19:05:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>604eee6947020210edd8b4b4116d43ab</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 19:06:24</sys_updated_on>
+        <sys_updated_on>2024-05-25 18:32:45</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>package_private</access>
@@ -1569,7 +1569,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Execute Scripts">cc4eee6947020210edd8b4b4116d4325</action>
         <cid>583d5d8d-2ab0-4e3b-9b18-355a27307991</cid>
-        <error_handling_type>1</error_handling_type>
+        <error_handling_type>2</error_handling_type>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -1583,10 +1583,10 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 19:05:27</sys_created_on>
         <sys_id>044eee6947020210edd8b4b4116d4335</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 19:06:23</sys_updated_on>
+        <sys_updated_on>2024-05-25 18:32:44</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=044eee6947020210edd8b4b4116d4335"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1597,21 +1597,21 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 19:05:28</sys_created_on>
         <sys_id>884eee6947020210edd8b4b4116d4349</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 19:06:23</sys_updated_on>
+        <sys_updated_on>2024-05-25 18:32:44</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 	try {&#13;
 		var number_of_scripts = parseInt(inputs.test_definition.getValue('number_of_scripts'), 10);&#13;
 		if (gs.nil(number_of_scripts)) {&#13;
-			throw 'Missing "number_of_scripts", cannot continue';&#13;
+			throw Error('Missing "number_of_scripts", cannot continue');&#13;
 		}&#13;
 &#13;
 		// Default to 10 iterations if missing from the definition&#13;
 		var iterations = parseInt(inputs.test_definition.getValue('iterations'), 10) || 10;&#13;
 &#13;
 		// Initialize variables and GlideScopedEvaluator&#13;
-		scripts = [], script_name = '', i = 0, glide_evaluator = new GlideScopedEvaluator();&#13;
+		var scripts = [], script_name = '', i = 0, glide_evaluator = new GlideScopedEvaluator();&#13;
 &#13;
 		// Loop through the selected number of scripts and also check if script is defined, start count from 1 because fields are named from _1&#13;
 		for (i = 1; i &lt;= number_of_scripts; i++) {&#13;
@@ -1620,7 +1620,7 @@
 &#13;
 			// Check if the script field is empty&#13;
 			if (gs.nil(inputs.test_definition.getValue('script_' + i))) {&#13;
-				throw 'Missing "script_' + i + '", cannot continue';&#13;
+				throw Error('Missing "script_' + i + '", cannot continue');&#13;
 			}&#13;
 &#13;
 			// Construct the script execution objects&#13;
@@ -1638,7 +1638,7 @@
 				});&#13;
 &#13;
 				if (!glide_evaluator.getVariable('success')) {&#13;
-					throw 'Failed to execute script "' + script.script_name + '", check your script and retry'&#13;
+					throw Error('Failed to execute script "' + script.script_name + '", check your script and retry');&#13;
 				}&#13;
 &#13;
 				script.timer_end_time = new Date(); // End time of script execution&#13;
@@ -2448,14 +2448,14 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 19:05:28</sys_created_on>
         <sys_id>904eee6947020210edd8b4b4116d4357</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 19:06:23</sys_updated_on>
+        <sys_updated_on>2024-05-25 18:32:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

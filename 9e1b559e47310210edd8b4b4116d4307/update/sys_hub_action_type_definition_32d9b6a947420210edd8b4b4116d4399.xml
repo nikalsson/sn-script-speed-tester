@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>32d9b6a947420210edd8b4b4116d4399</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name>Write Script Test Results To HTML</sys_name>
         <sys_overrides/>
         <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_32d9b6a947420210edd8b4b4116d4399</sys_update_name>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 19:18:58</sys_updated_on>
+        <sys_updated_on>2024-05-25 17:02:29</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -193,9 +193,9 @@
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 20:04:04</sys_created_on>
         <sys_id>feab326d47420210edd8b4b4116d4381</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 19:18:56</sys_updated_on>
+        <sys_updated_on>2024-05-25 17:01:53</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 	try {&#13;
         var results = JSON.parse(inputs.details);&#13;
@@ -256,7 +256,7 @@
             var def_gr = inputs.test_definition;&#13;
 			html += '&lt;pre class="script"&gt;';&#13;
 			html += '&lt;span class="script_name"&gt;' + results[i - 1].script_name + '&lt;/span&gt;&lt;br&gt;';&#13;
-			html += escapeHtmlCharacters(def_gr.getValue('script_' + i)); // Escape the JS characters so it won't mess up the HTML&#13;
+			html += escapeHtmlCharacters(def_gr.getValue(results[i - 1].script_field_name)); // Escape the JS characters so it won't mess up the HTML&#13;
 			html += '&lt;/pre&gt;&lt;br&gt;';&#13;
         }&#13;
 &#13;
@@ -1237,14 +1237,14 @@ function escapeHtmlCharacters(script) {&#13;
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-08 20:04:04</sys_created_on>
         <sys_id>baab326d47420210edd8b4b4116d438a</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 19:18:56</sys_updated_on>
+        <sys_updated_on>2024-05-25 17:02:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1614,17 +1614,17 @@ function escapeHtmlCharacters(script) {&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Write Script Test Results To HTML">32d9b6a947420210edd8b4b4116d4399</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"fd356e3947c24210edd8b4b4116d4316","name":"plan","plan_signature":null}}</plan>
-        <snapshot>6a41601b47c6c210edd8b4b4116d4368</snapshot>
+        <snapshot>d425718347520210edd8b4b4116d4392</snapshot>
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-09 13:04:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fd356e3947c24210edd8b4b4116d4316</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 19:18:58</sys_updated_on>
+        <sys_updated_on>2024-05-25 17:02:30</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>package_private</access>
@@ -1789,10 +1789,10 @@ function escapeHtmlCharacters(script) {&#13;
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-09 13:04:26</sys_created_on>
         <sys_id>e1352e3947c24210edd8b4b4116d4392</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 19:18:57</sys_updated_on>
+        <sys_updated_on>2024-05-25 17:02:28</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e1352e3947c24210edd8b4b4116d4392"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1803,9 +1803,9 @@ function escapeHtmlCharacters(script) {&#13;
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-09 13:04:27</sys_created_on>
         <sys_id>2d352e3947c24210edd8b4b4116d43a1</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 19:18:57</sys_updated_on>
+        <sys_updated_on>2024-05-25 17:02:28</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 	try {&#13;
         var results = JSON.parse(inputs.details);&#13;
@@ -1866,7 +1866,7 @@ function escapeHtmlCharacters(script) {&#13;
             var def_gr = inputs.test_definition;&#13;
 			html += '&lt;pre class="script"&gt;';&#13;
 			html += '&lt;span class="script_name"&gt;' + results[i - 1].script_name + '&lt;/span&gt;&lt;br&gt;';&#13;
-			html += escapeHtmlCharacters(def_gr.getValue('script_' + i)); // Escape the JS characters so it won't mess up the HTML&#13;
+			html += escapeHtmlCharacters(def_gr.getValue(results[i - 1].script_field_name)); // Escape the JS characters so it won't mess up the HTML&#13;
 			html += '&lt;/pre&gt;&lt;br&gt;';&#13;
         }&#13;
 &#13;
@@ -2861,14 +2861,14 @@ function escapeHtmlCharacters(script) {&#13;
         <sys_created_by>nik-admin</sys_created_by>
         <sys_created_on>2024-05-09 13:04:27</sys_created_on>
         <sys_id>65352e3947c24210edd8b4b4116d43c3</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-13 19:18:57</sys_updated_on>
+        <sys_updated_on>2024-05-25 17:02:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
