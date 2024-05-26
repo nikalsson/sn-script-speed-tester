@@ -20,10 +20,11 @@
     var state = g_form.getValue('state');
 
     if (state == '100') {
-        var link = '<a href="x_1397355_s_speed_test_result.do?sys_id=' + g_form.getValue('last_test_result') + '">HERE</a>';
-        g_form.addInfoMessage('The test is complete, check the results ' + link);
+        g_form.addInfoMessage('The test is complete.');
+		g_form.flash('last_test_result', '#7CFC00', -2);
     } else if (state == '300') {
         g_form.addErrorMessage('The test failed. Please check the scripts.');
+		g_form.flash('error', '#DC143C', -2);
     }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -32,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>568de18747120210edd8b4b4116d4332</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>State change messages</sys_name>
         <sys_overrides/>
         <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
@@ -40,7 +41,7 @@
         <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
         <sys_update_name>sys_script_client_568de18747120210edd8b4b4116d4332</sys_update_name>
         <sys_updated_by>nik-admin</sys_updated_by>
-        <sys_updated_on>2024-05-25 18:23:16</sys_updated_on>
+        <sys_updated_on>2024-05-26 11:12:36</sys_updated_on>
         <table>x_1397355_s_speed_test_definition</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

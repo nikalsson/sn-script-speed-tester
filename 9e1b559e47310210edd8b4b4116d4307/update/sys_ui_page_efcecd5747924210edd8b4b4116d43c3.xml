@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>homepages</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1397355_s_speed_about_speed_tester.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<container id="about_page">
+		<div id="about_speed_tester">
+			<strong>About Script Speed Tester</strong>
+			<br />
+			The application aims at measuring how long does the particular script execute. It also has the ability to compare the speed of up to 9 scripts. The tool is useful for optimising the run time of scripts when using them in ServiceNow.
+			<br />
+			Create a test definition in$[SP]<code>x_1397355_s_speed_test_definition</code>$[SP]table. Put in your scripts, set other details and run. Flow executes the scripts in background using the$[SP]<code>GlideScopedEvaluator API</code>. The test results are saved as$[SP]<code>x_1397355_s_speed_test_result</code>$[SP]records.
+			<br />
+			<br />
+			Roles:
+			<br />
+			x_1397355_s_speed.admin - application admin
+			<br />
+			x_1397355_s_speed.user - can read the test definitions, run tests and read results
+		</div>
+
+		<br />
+		<hr />
+		<br />
+
+		<div id="contibutors_speed_tester">
+			<strong>Contributors</strong>
+			<br />
+			Natalia Kasper$[SP]<a href="https://www.linkedin.com/in/natalia-kasper-b0b63411a/">[LinkedIn]</a>
+			<br />
+			Niko Sääski$[SP]<a href="https://www.linkedin.com/in/niko-s%C3%A4%C3%A4ski-692849135/">[LinkedIn]</a>
+		</div>
+
+		<br />
+		<hr />
+		<br />
+
+		<div id="credits_speed_tester">Original speed test libraries - credits to$[SP]<a href="https://github.com/R3J3NT/ServiceNow-performance-study">Jakub</a></div>
+	</container>
+</j:jelly>
+]]></html>
+        <name>about_speed_tester</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>nik-admin</sys_created_by>
+        <sys_created_on>2024-05-26 08:56:31</sys_created_on>
+        <sys_id>efcecd5747924210edd8b4b4116d43c3</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>about_speed_tester</sys_name>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name>sys_ui_page_efcecd5747924210edd8b4b4116d43c3</sys_update_name>
+        <sys_updated_by>nik-admin</sys_updated_by>
+        <sys_updated_on>2024-05-26 11:01:21</sys_updated_on>
+    </sys_ui_page>
+</record_update>

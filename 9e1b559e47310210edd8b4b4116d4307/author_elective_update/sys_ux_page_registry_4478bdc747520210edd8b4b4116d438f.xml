@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>c878758747520210edd8b4b4116d4348</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>script-speed-tester</path>
+        <root_macroponent display_value="Breadcrumb App Shell">e341e22cc32e2010ea04a5a1d840dd02</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>nat-admin</sys_created_by>
+        <sys_created_on>2024-05-25 17:16:56</sys_created_on>
+        <sys_id>4478bdc747520210edd8b4b4116d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Script Speed Tester</sys_name>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name>sys_ux_page_registry_4478bdc747520210edd8b4b4116d438f</sys_update_name>
+        <sys_updated_by>nat-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 17:16:56</sys_updated_on>
+        <title>Script Speed Tester</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</application>
+        <file_path/>
+        <instance_id>9d472d3e1bda3d14c8432f8dee4bcb7a</instance_id>
+        <instance_name>dev207854</instance_name>
+        <name>sys_ux_page_registry_4478bdc747520210edd8b4b4116d438f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>c878758747520210edd8b4b4116d4348</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>script-speed-tester</path><root_macroponent display_value="Breadcrumb App Shell">e341e22cc32e2010ea04a5a1d840dd02</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>nat-admin</sys_created_by><sys_created_on>2024-05-25 17:16:56</sys_created_on><sys_id>4478bdc747520210edd8b4b4116d438f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Script Speed Tester</sys_name><sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package><sys_policy/><sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope><sys_update_name>sys_ux_page_registry_4478bdc747520210edd8b4b4116d438f</sys_update_name><sys_updated_by>nat-admin</sys_updated_by><sys_updated_on>2024-05-25 17:16:56</sys_updated_on><title>Script Speed Tester</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>965986737</payload_hash>
+        <record_name>Script Speed Tester</record_name>
+        <reverted_from/>
+        <source>d45ce50747120210edd8b4b4116d433b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nat-admin</sys_created_by>
+        <sys_created_on>2024-05-25 17:16:56</sys_created_on>
+        <sys_id>4c78bdc747520210edd8b4b4116d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fb0c16a460000001</sys_recorded_at>
+        <sys_updated_by>nat-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 17:16:56</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>4078bdc7995202109a608e8a74e67d92</update_guid>
+        <update_guid_history>4078bdc7995202109a608e8a74e67d92:965986737</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nat-admin</sys_created_by>
+        <sys_created_on>2024-05-26 11:12:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>353c41875c9e4746a961e94be58cd864</sys_id>
+        <sys_metadata>4478bdc747520210edd8b4b4116d438f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Script Speed Tester</sys_name>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_scope_delete display_value="">0de6e265512445da835504ec8de03724</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_4478bdc747520210edd8b4b4116d438f</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_4478bdc747520210edd8b4b4116d438f">4c78bdc747520210edd8b4b4116d4392</sys_update_version>
+        <sys_updated_by>nat-admin</sys_updated_by>
+        <sys_updated_on>2024-05-26 11:12:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
