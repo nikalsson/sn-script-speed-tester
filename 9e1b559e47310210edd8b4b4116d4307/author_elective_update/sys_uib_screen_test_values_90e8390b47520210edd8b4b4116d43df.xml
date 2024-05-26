@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{}</macroponent_config>
+        <screen display_value="Test">d0e8390b47520210edd8b4b4116d43db</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>nat-admin</sys_created_by>
+        <sys_created_on>2024-05-25 17:18:51</sys_created_on>
+        <sys_id>90e8390b47520210edd8b4b4116d43df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_90e8390b47520210edd8b4b4116d43df</sys_update_name>
+        <sys_updated_by>nat-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 18:01:55</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</application>
+        <file_path/>
+        <instance_id>9d472d3e1bda3d14c8432f8dee4bcb7a</instance_id>
+        <instance_name>dev207854</instance_name>
+        <name>sys_uib_screen_test_values_90e8390b47520210edd8b4b4116d43df</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{}</macroponent_config><screen display_value="Test">d0e8390b47520210edd8b4b4116d43db</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>nat-admin</sys_created_by><sys_created_on>2024-05-25 17:18:51</sys_created_on><sys_id>90e8390b47520210edd8b4b4116d43df</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package><sys_policy/><sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope><sys_update_name>sys_uib_screen_test_values_90e8390b47520210edd8b4b4116d43df</sys_update_name><sys_updated_by>nat-admin</sys_updated_by><sys_updated_on>2024-05-25 18:01:55</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>595666646</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d45ce50747120210edd8b4b4116d433b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nat-admin</sys_created_by>
+        <sys_created_on>2024-05-25 18:01:55</sys_created_on>
+        <sys_id>c7b28a0b47920210edd8b4b4116d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fb0ea988d0000001</sys_recorded_at>
+        <sys_updated_by>nat-admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 18:01:55</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>0fb28a0bee920210ca0dc925b5a7e462</update_guid>
+        <update_guid_history>0fb28a0bee920210ca0dc925b5a7e462:595666646,18e8390b0e520210c29500d1e0b01be0:565599641</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nat-admin</sys_created_by>
+        <sys_created_on>2024-05-26 11:14:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>23a3d77b353f489e890ca1c072d6dba9</sys_id>
+        <sys_metadata>90e8390b47520210edd8b4b4116d43df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Script Speed Tester" source="x_1397355_s_speed">9e1b559e47310210edd8b4b4116d4307</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Script Speed Tester">9e1b559e47310210edd8b4b4116d4307</sys_scope>
+        <sys_scope_delete display_value="">0de6e265512445da835504ec8de03724</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_90e8390b47520210edd8b4b4116d43df</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_90e8390b47520210edd8b4b4116d43df">c7b28a0b47920210edd8b4b4116d4363</sys_update_version>
+        <sys_updated_by>nat-admin</sys_updated_by>
+        <sys_updated_on>2024-05-26 11:14:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
