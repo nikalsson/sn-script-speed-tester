@@ -10,7 +10,7 @@
 - OR install through the update set [`sn-script-speed-tester.xml`](https://github.com/nikalsson/sn-script-speed-tester/blob/main/sn-script-speed-tester.xml)
 ---
 
-#### [Example tests in HTML format (link)](https://htmlpreview.github.io/?https%3A%2F%2Fgithub.com%2Fnikalsson%2Fsn-script-speed-tester%2Fblob%2Fmain%2Fglidemultipleupdate_speed_test.html=)
+#### [Example tests in HTML format (link)](https://rawcdn.githack.com/nikalsson/sn-script-speed-tester/088d86cef17413079c37a48f20445d72900be558/glidemultipleupdate_speed_test.html)
 
 #### Screenshots
 
